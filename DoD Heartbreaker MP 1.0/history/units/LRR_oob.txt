@@ -1,0 +1,72 @@
+leader = {
+	name = "Louis Kraut"
+	type = land
+	date = 1836.1.1
+	personality = cursed_luck
+	background = member_of_elite
+}
+
+army = {
+	name = "Armee des Defonce"
+	location = 412
+	regiment = {
+		name= "1e Brigade"
+		type = infantry
+		home = 411
+	}
+
+	regiment = {
+		name= "2e Brigade"
+		type = infantry
+		home = 414
+	}
+
+	regiment = {
+		name= "3e Brigade"
+		type = infantry
+		home = 410
+	}
+
+	regiment = {
+		name= "4e Brigade"
+		type = infantry
+		home = 410
+	}
+
+	regiment = { 
+		name= "Brigade d'Artillerie 2"
+		type = artillery
+		home = 410
+	}
+	
+	regiment = { 
+		name= "Brigade d'Chevauchee"
+		type = hussar
+		home = 410
+	}
+	
+	regiment = { 
+		name= "Brigade d'Artillerie 3"
+		type = artillery
+		home = 410
+	}
+
+	regiment = { 
+		name= "Brigade d'Artillerie 4"
+		type = artillery
+		home = 432
+	}
+	
+	regiment = { 
+		name= "Brigade d'Artillerie 5"
+		type = artillery
+		home = 433
+	}
+
+	regiment = { 
+		name= "Brigade d'Artillerie 1"
+		type = artillery
+		home = 607
+	}
+}
+

@@ -1,0 +1,32 @@
+political_decisions = {
+	accept_sephardic = { 
+	picture = embrace_minority
+	
+		potential = { 
+			OR = { 
+				tag = ALB
+				tag = VEN
+				tag = ITA 
+			}
+		NOT = { has_country_flag = sephardic_acc } 
+		}
+		
+		allow = {
+		ideological_thought = 1 
+		citizenship_policy = full_citizenship
+		religious_policy = pluralism
+		}
+		
+		effect = { 
+		add_accepted_culture = sephardic 
+		any_pop = {
+                    limit = {
+						has_pop_religion = jewish 
+                    }
+                    consciousness = 4
+                    militancy = -5
+                }
+			set_country_flag = sephardic_acc
+			}
+		}
+	}

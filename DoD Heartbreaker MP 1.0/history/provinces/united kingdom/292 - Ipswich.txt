@@ -1,0 +1,18 @@
+owner = DUA
+controller = DUA
+add_core = DUA
+add_core = ENL
+trade_goods = grain
+life_rating = 32
+naval_base = 2
+fort = 1
+1861.1.1 = { 
+	railroad = 3 
+	naval_base = 3 
+}
+
+1836.1.2 = {
+	owner = ENL
+	controller = ENL
+	colonial = 0
+}

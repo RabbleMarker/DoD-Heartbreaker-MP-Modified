@@ -1,0 +1,213 @@
+;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;;
+MGY;Magyar-Moravia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MGY_ADJ;Magyarian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JEW;Jerusalem Junta;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+JEW_ADJ;Jewish;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IBE;Iberian Union;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IBE_republic;Iberia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IBE_ADJ;Iberian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+GFE;Greater France;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+GFE_absolute_monarchy;French Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+GFE_ADJ;French;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+integrate_navarre_title;Integrate the Basque!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+integrate_navarre_desc;Time to finally wipe off the pimple of Iberia!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+accept_BOH_title;Restoration of the Czech-Slovak Union;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+accept_BOH_desc;With Moravia back under our control we are now in a position to get the rest Czechia back in our hands;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+accept_ROM_title;Abolish the Principality of Transylvania;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+accept_ROM_desc;To consolidate our southern border we need to dissolve the local principalities and absorb it into the Hungarian Crown;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+take_silesia_title;The Silesian Question ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+take_silesia_desc;To secure our coal and iron demand we must integrate silesia as a dejure part of the Commonwealth. ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+accept_provence_BRG_title;Provencal Integration;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;        
+accept_provence_BRG_desc;We shall create the Big Burgundy!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nute_retard_title;Incan Glory;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nute_retard_desc;Our glory shall be revealed to the whole world!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+form_magyar_title;The Magyar Moravian Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+form_magyar_desc;After siezing our righteous titles we may now form a grand empire!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+integrate_anglois_title;Integration of the Anglo-French;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+integrate_anglois_desc;We are now ready to integrate those that are apart of a dead culture with dead ideals;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+independence_ire_title;Irish Independence!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+independence_ire_desc;With the collapse of the Dual Monarchy we are finally free, however we are still surrounded by potential enemies and we are going to need to raise money for the final defense of Ireland.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+integrate_breton_title;End Breton Seperatism;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+integrate_breton_desc; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+welsh_integration_title;The Welsh Agreements;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+welsh_integration_desc;As a result of the collapsing monarchy many local seperatist movements gained popularity. In order to secure our internal stability we must make deals with local community members to gain their support.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  
+integrate_burgundy_title;United at Last!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+integrate_burgundy_desc;With the downfall of the failed state of Burgundy we can claim a new righteous identity of Greater France!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+jewish_merge_title;A Jewish Homeland;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+jewish_merge_desc;After 20 years of securing our independance it is time to embrace our Jewish Identity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+bureaucrats_fix_title;Non-Accepted Bureacrats 10 year cooldown;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+bureaucrats_fix_desc;Turns unaccepted bureacrats into artisans;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+downfall_valois_title;The Downfall of the Valois;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+downfall_valois_desc;What's Yours is Mine;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+return_home_VIN_title;Retun Home;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+return_home_VIN_desc;Home sweet home;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+spanish_expansion_maghreb_title;Proclaim Spanish Dominion over Maghreb;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+spanish_expansion_maghreb_desc;After taking over Western Aragonese Maghreb, and annexing the local natives we have gained total dominion over North-West Africa.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mexican_acceptance_title;Mexican Acceptance;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mexican_acceptance_desc;While our rule over Mexico was not loved, they will learn to love it ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTNAME6000000;The Jews Leave;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTDESC6000000;After the creation of a Jewish state in the Middle east many are fleeing to there;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT60000000PTA;We didn't need them anyway;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+99991.T;Revolt!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+99991.D;The flames of the Anglois Revolution have ignited Burgundy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+99991.A;We will win;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+normandie_core_title;The Normandie Question;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+normandie_core_desc;Usurp the Duchy of Normandie;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+Double.T;The British Question;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+Double.D;After our conquest of the isles we have avenged our ancestors before us. The idea of a United Kingdom from the isles is no more. The question over who shall we attempt to integrate into our empire first remains.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+Double50.T;English Integration;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+Double50.D;We have managed to bring England into our core empire ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+Double60.T;Irish Integration;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+Double60.D;We have managed to bring Ireland into our core empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+32236.A;England is the natural choice;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+32236.B;Ireland is a safer bet;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+32236.C;We are Overlords of both England and Ireland!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  
+32250.A;Party like its 1016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  
+32260.A;Hurrah Hurrah;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  
+british_question_title;The British Question;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+british_question_desc;What shall we do with the Isles?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PRU_545;Mecklenburg;;;;;;;;;;;;;;;;;;;;;;;;;;;
+XK_NAME;A Moment Fractured;;;;;;;;;;;x
+XK_DESC;The Dual Monarchy has been dissolved. The new countries of Ireland, England, and France as well as the return of the Valois in Southern France Europe is in a chaotic situation;;;;;;;;;;;x
+EVT6000000PTA;We dont need them anyway;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+build_port_level_1_title;Port Construction;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+build_port_level_1_desc;We need to start up building ports so we can have a coastal fleet;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+max_build_port_level_1_titleport_level_title;Advanced Port Construction;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+max_port_level_desc;We need to have a strong navy to compete with others;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+accept_sephardic_title;End the Persecution;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+accept_sephardic_desc;The Sephardic minority shall no longer be seperate and excluded from our nation, but rather accepted.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+pommeranian;Pommeranian;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+bantu;Bantu;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+afro_asiatic;Afro-Asiatic;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+acquire_state_for_puppet;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+Dconquest.T;Debug Conquest Options;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+Dconquest.D;Enables and disables the global flag to turn on and off the cb.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+333041.A;Enable (turns on the cb);;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+333041.B;Disable (turns off the cb);;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+conquest_debug;Debug Conquest CB;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+conquest_debug_short;Debug Annex;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+conquest_debug_desc;Debug Conquest a country;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+conquest_debug_setup;Debug Annex;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC776405;China and India get nerfs to their large population to help with balance & late-game lag.;;;;;;;;;x
+EVTOPTA776405;Damn the acts of attempting to balance Asia.;;;;;;;;;x
+776405;Chinese Pop Nerf;;;;;;;;;x
+zcountry_pass_reform_title;Pass Reform;;;;;;;;;x;;;;
+zcountry_pass_reform_desc;Lets you pass any reform without the support of the upper house and gives the reform passed modifier for several years. You must still meet other requirements listed in the reform, e.g. you must have medicine in order to enact trinket healthcare and it cannot be less than 6 months since you passed another reform. The passed modifier gives negative tax efficiency and increased militancy.;;;;;;;;;x;;;;
+PROV3321;Seine River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3322;Rhine River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3323;Danube River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3324;Dnejpr River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3325;Duna River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+tax_haven_on_title;Become an International Tax Haven;;;;;;;;;x
+tax_haven_on_desc;By decreasing our trade tarrifs, we will encourage job development within our nation;;;;;;;;;x
+tax_haven_off_title;Stop being an International Tax Haven;;;;;;;;;x
+tax_haven_off_desc;The cost of foreign corporations have proved to be too much;;;;;;;;;x
+int_tax_haven_cooldown;Tax Haven Cooldown;;;;;;;;;x
+int_tax_haven;International Tax Haven;;;;;;;;;x
+MILITARY_MOBILIZE;MORBILIZE;;;;;;;;;x
+PROV3326;Yellow River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3327;Yangtz River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3328;Vistula River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3329;Oder River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3330;Liao River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3331;Amnok River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+strike_south_title;Strike South!;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+strike_south_desc;The Chinese colonists founded the Dong Guo federation long time ago and since then it has developed into a full-fledged country. But somehow they stand in way of establishing total control over the Pacific. We should focus our efforts southward.;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+acquire_small_state;Acquire Small State;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+acquire_tiny_state;Acquire Tiny State;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+xifangian;Dongish;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+EVTDESC10923;German Nationalists have seized control of our neighbor and are now attempting to unify with us!;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+EVTDESC10273;The Great Powers of Europe have all had their influence removed as a result of new nationalist agitation as Germany plunges into chaos;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+GERCONGR1.T;The German Springtime;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+GERCONGR1.D;Tired of rule from Prague, Anvers, and Copenhagen, many German states have been taken over by nationalists who seek to unify Germany;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+EVTDESC12218;German Nationalists have seized control of our neighbor and are now attempting to unify with us!;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+craftsmen_fix_cooldown;Craftsmen Fix Cooldown;;;;;;;;;;;;;
+craftsmen_fix_cooldown_desc;Craftsmen Fix Cooldown is 10 years.;;;;;;;;;;;;;
+EVTNAME9999901;Craftsmen Exploit Salvage (Part 1);;;;;;;;;;;;;
+EVTDESC9999901;This event converts all non-core/non-accepted craftsmen into farmers if they are on your cores. Part 2 will spawn in 3 days, be sure to select this option FIRST.;;;;;;;;;;;;;
+EVTNAME9999902;Craftsmen Exploit Salvage (Part 2);;;;;;;;;;;;;
+EVTDESC9999902;This event converts all 100% unemployed farmers into laborers.;;;;;;;;;;;;;
+flood_the_lowlands_title;Flood the Netherlands;;;;;;;;;;;;;
+flood_the_lowlands_desc;Though the deaths of many will be unfortunate, luckily that is §Ra price that we are willing to take §!§ if it means the survival of our nation.;;;;;;;;;;;;;
+devastating_flood;Devastating Flood;;;;;;;;;;;;;
+99992.T;The Netherlands Flood!;;;;;;;;;;;;;
+99992.D;Through our extreme measures numerous nations are now upset with us and our people are horiffied. Worst of all many seek seek revenge.;;;;;;;;;;;;;
+99992.A;What have we done?;;;;;;;;;;;;;
+ITACONGR1.T;The German Springtime;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+ITACONGR1.D;Tired of rule from Prague, Anvers, and Copenhagen, many German states have been taken over by nationalists who seek to unify Germany;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+EVTDESC12248;Italian Nationalists have seized control of our neighbor and are now attempting to unify with us!;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+EVTDESC10283;The Great Powers of Europe have all had their influence removed as a result of new nationalist agitation as Italy plunges into chaos;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+EVTDESC10933;German Nationalists have seized control of our neighbor and are now attempting to unify with us!;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+VENITA.T;Venetian Intervention in Italy?;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+VENITA.D;Nationalists inspired from liberal ideas have thrown Italy into chaos through sweeping revolutions. This has given us the perfect opportunity to claim ourselves as the leaders of italy and to cut down our enemies if we see ourselves strong enough. ;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+106099.A;Count us in! ;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+106099.B;The Council of Europe must be restored! ;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+PRVITA.T;Provencial Intervention in Italy?;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+PRVITA.D;Nationalists inspired from liberal ideas have thrown Italy into chaos through sweeping revolutions. This has given us the perfect opportunity to claim ourselves as the leaders of italy and to cut down our enemies if we see ourselves strong enough. ;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+106098.A;Count us in! ;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+106098.B;The Council of Europe must be restored! ;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+EGY_1757;Sinai Peninsula;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+anglois_assim_issues;Assimilation Troubles;;;;;;;;;;;;;;;;;;;;;x;;;;;; 
+anglois_assim_issues_desc;The fate of our nation leaves many concerned;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+EVTDESC2652;According to our peace treaty with $FROMCOUNTRY$, we must dismantle our factories and cancel all constructions and recruitments in the affected states.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;
+dismantle_factories_desc;Dismantle factories and cancel all constructions and recruitments in AI.\n\n§YNOTE: §RBecause of coding limitations this CB only works with one country at a time, if you are going to add it for more than one country then make sure to peace out separately.§W;;Reißt Forts und Marinestützpunkte ab.;;;;;;;;x;;;;
+dismantle_factories;Dismantle AI Industry;;Reißt Forts ab;;;;;;;;x;;;;
+dismantle_factories_short;Dismantle industry in AI $STATE$;;Reißt Bauten in $STATE$ ab;;;;;;;;x;;;;
+dismantle_factories_setup;Dismantle factories and cancel all constructions and recruitments in AI $STATE$;;Reißt Forts und Marinestützpunkte in $STATE$ ab;;;;;;;;x;;;;
+CIV;AI Industrial Dismantlement;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;
+CIV_ADJ;AI Industrial Dismantlement;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;
+hungarian_treaty_title;Treaty of Friendship with Hungary;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;
+hungarian_treaty_desc;Hungary would make a much more natural choice of an ally than the Ottoman Empire, it would weaken the geo strategic situation of our enemies. ;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;
+ottoman_treaty_title;Treaty of Friendship with the Ottoman Empire;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;
+ottoman_treaty_desc;The Ottoman Empire is still a strong nation despite its setbacks and would be a powerful ally.;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTNAME32270;$FROMCOUNTRY$ asks for an alliance;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTOPTA32270;I accept;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+EVTOPTB32270;No way;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTDESC32270;Diplomats from $FROMCOUNTRY$ seek to establish a military alliance;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTNAME32271;Hungary Accepts!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTOPTA32271;A great day for the nation;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTDESC32271;Diplomats from Budapest have accepted our proposal of an alliance!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+EVTNAME32272;Hungary Refuses!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTOPTA32272;Maybe we should look elsewhere...;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTDESC32272;Diplomats from Budapest have declined our proposal of an alliance!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTNAME32280;$FROMCOUNTRY$ asks for an alliance;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTOPTA32280;I accept;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+EVTOPTB32280;No way;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTDESC32280;Diplomats from $FROMCOUNTRY$ seek to establish a military alliance;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTNAME32281;Ottomans Accepts!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTOPTA32281;A great day for the nation;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTDESC32281;Diplomats from Constantinople have accepted our proposal of an alliance!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+EVTNAME32282;Ottomans Refuses!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTOPTA32282;Maybe we should look elsewhere...;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+EVTDESC32282;Diplomats from Constantinople have declined our proposal of an alliance!;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+CLM_2204;Greater Andagoya;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+starting_treasury_gp_title;Withdraw from our large treasury;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+starting_treasury_gp_desc;National security necessitates the immediate collection of money;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+starting_treasury_sp_title;Withdraw from our medium treasury;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;; 
+starting_treasury_sp_desc;National security necessitates the immediate collection of money;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+starting_treasury_civ_title;Withdraw from our small treasury;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+starting_treasury_civ_desc;National security necessitates the immediate collection of money;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+starting_treasury_unciv_title;Withdraw from our tiny treasury;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+starting_treasury_unciv_desc;National security necessitates the immediate collection of money;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;  
+#############Kick_player_decision##############;;;;;;;;;;;;;x,,,,
+Kick_player_title;Kick Player;;;;;;;;;;;;;x,,,,
+Kick_player_desc;Kicks every Player not in an alliance with the host nation!;;;;;;;;;;;;;x,,,,
+#############Unsiege_country_decisions##############;;;;;;;;;;;;;x,,,,
+open_unsiege_system_title;Open the unsiege System;;;;;;;;;;;;;x,,,,
+open_unsiege_system_desc;Gives you acces to all unsiege decisions;;;;;;;;;;;;;x,,,,
+close_unsiege_system_title;Close the unsiege System;;;;;;;;;;;;;x,,,,
+close_unsiege_system_desc;hides away all unsiege decisions;;;;;;;;;;;;;x,,,,
+unsiege_this_nation_title;SELECT the Nations to be unsieged!;;;;;;;;;;;;;x,,,,
+unsiege_this_nation_desc;unally the player you want to unsiege and then press this decision, if you aoutomatically re-allied him it worked and the flag is set!;;;;;;;;;;;;;x,,,
+unsiege_now_title;START the unsiege!;;;;;;;;;;;;;x,,,,
+unsiege_now_desc;If you pres this decision every player nation with the unsiege flag gets automatically fully unsieged;;;;;;;;;;;;;x,,,,
+clear_unsiege_flags_title;Clear all unsiege flags;;;;;;;;;;;;;x,,,,
+clear_unsiege_flags_desc;Removes all leftover unsiege flags (safety);;;;;;;;;;;;;x,,,,
+dutch_gems_title;Conquests of the VOC;;;;;;;;;;;;;x,,,,
+dutch_gems_desc;Throughout Burgundian history, Dutch merchants have brought back great wealth and enriched our homeland with untold treasures. It has come clear we will need to come back to our roots in trade if we wish to be a wealthy power.;;;;;;;;;;;;;x,,,,
+psychological_intelligence;Psychological Intelligence;;;;;;;;;;;;;x,,,,
+accept_french_BRG_title;Our Frankish Identity;;;;;;;;;;;;;x,,,,
+accept_french_BRG_desc;The French identity has suffered from centuries of bastardization by the illegitimate Angloid tyrants. We must tolerate this no further by claiming ourselves as the true heirs to the Franks!;;;;;;;;;;;;;x,,,, 
+PROV3332;Elbe River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3333;Po River;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PROV3334;Rio Grande;;;;;;;;;;;;;;;;;;;;;x;;;;;;

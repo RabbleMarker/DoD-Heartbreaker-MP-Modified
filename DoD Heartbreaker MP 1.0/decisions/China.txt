@@ -1,0 +1,279 @@
+political_decisions = {
+	form_china_chagatai = {
+      picture = form_china
+  		potential = {
+  			tag = CHG
+  			NOT = {
+				exists = CHI
+  			}
+  		}
+  		
+  		allow = {
+        	civilized = yes
+  			NOT = { war = yes }
+  			CHI = {
+				all_core = {
+					OR = {
+  						owned_by = THIS
+  						owner = {
+  							in_sphere = THIS
+  						}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  					}
+				}
+			}
+  		}
+		
+  		effect = {
+  			prestige = 30
+  			change_tag = CHI
+			add_accepted_culture = beifaren
+			any_country = {
+  				limit = {
+  					OR = {
+  						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+						primary_culture = uighur
+						primary_culture = tibetan
+  					}
+  					in_sphere = THIS
+  					NOT = {
+  						tag = THIS
+  					}
+  				}
+  				annex_to = THIS
+  			}
+
+			capital = 1612
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+
+	form_china_mongol = { 
+      picture = form_china
+  		potential = {
+  			tag = MGL
+  			NOT = {
+				exists = CHI
+  			}
+  		}
+  		
+  		allow = {
+        civilized = yes
+  			NOT = { war = yes }
+  			CHI = {
+  				all_core = {
+  					OR = {
+  						owned_by = THIS
+  						owner = {
+  							in_sphere = THIS
+  						}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  					}
+  				}
+  			}
+  		}
+  		effect = {
+  			prestige = 30
+  			change_tag = CHI 
+			add_accepted_culture = beifaren			
+  			any_country = {
+  				limit = {
+  					OR = {
+  						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+  					}
+  					in_sphere = THIS
+  					NOT = {
+  						tag = THIS
+  					}
+  				}
+  				annex_to = THIS
+  			}
+  			capital = 1612
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+
+	form_china_claimant = { 
+      picture = form_china
+  		potential = {
+		is_culture_group = chinese
+  			NOT = {
+				exists = CHI
+  			}
+  		}
+  		
+  		allow = { 
+        civilized = yes
+  			NOT = { war = yes }
+  			CHI = {
+				all_core = {
+					OR = {
+  						owned_by = THIS
+  						owner = {
+  							in_sphere = THIS
+  						}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  					}
+				}
+			}
+  		}
+  		effect = {
+  			prestige = 30
+			remove_country_modifier = tungning_nerf
+  			change_tag = CHI  
+  			add_accepted_culture = beifaren
+  			add_accepted_culture = nanfaren			
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			capital = 2221
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+	
+	form_china_return = {
+      picture = form_china
+  		potential = {
+  			OR = { 
+				  primary_culture = xifangian
+				  primary_culture = xifangian
+				  primary_culture = tionghoa
+			  }
+  			NOT = {
+				exists = CHI
+  			}
+  		}
+  		
+  		allow = {  
+		civilized = yes
+  			NOT = { war = yes }
+  			CHI = {
+				all_core = {
+					OR = {
+  						owned_by = THIS
+  						owner = {
+  							in_sphere = THIS
+  						}
+					}
+				}
+			}
+  		}
+  		effect = {
+  			prestige = 30
+  			change_tag = CHI 
+			add_accepted_culture = beifaren
+			any_country = {
+				limit = {
+					is_culture_group = chinese
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			capital = 2221
+  		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+	
+	form_china_tibet = {  
+      picture = form_china
+  		potential = {
+  			tag = TIB
+  			NOT = {
+				exists = CHI
+  			}
+  		}
+  		
+  		allow = { 
+        civilized = yes
+  			NOT = { war = yes }
+  			CHI = {
+				all_core = {
+					OR = {
+  						owned_by = THIS
+  						owner = {
+  							in_sphere = THIS
+  						}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  					}
+				}
+			}
+  		}
+  		effect = {
+  			prestige = 30
+  			change_tag = CHI 
+			add_accepted_culture = beifaren
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			capital = 2221
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+}

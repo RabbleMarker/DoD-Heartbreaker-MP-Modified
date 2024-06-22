@@ -1,0 +1,14 @@
+country_event = {   #Qinqiu is informed of the invasion
+
+	id = 334302
+
+	title = "EVTNAME334302"
+	desc = "EVTDESC334302"
+	picture = "boshin_war"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA334302"
+	}
+}

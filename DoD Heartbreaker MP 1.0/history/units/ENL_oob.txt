@@ -1,0 +1,439 @@
+leader = {
+	name = "John Jacks"
+	type = land
+	date = 1836.1.2
+	personality = defence_3.1
+	background = attack_3.16
+}
+
+leader = {
+	name = "Ivan Gellner"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Jake Gellner"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Steve Gellner"
+	type = land
+	date = 1836.1.1
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+army = {
+	name = "Royal Guard"
+	location = 300
+	regiment = {
+		name = "1. British Grenadiers"
+		type = infantry
+		home = 300
+	}
+
+	regiment = {
+		name = "2. British Grenadiers"
+		type = infantry
+		home = 291
+	}
+	
+	regiment = {
+		name = "3 British Grenadiers"
+		type = infantry
+		home = 281
+	}
+	
+	regiment = {
+		name = "4 British Grenadiers"
+		type = infantry
+		home = 291
+	}
+	
+	regiment = {
+		name = "5 British Grenadiersa"
+		type = artillery
+		home = 291
+	}
+
+	regiment = {
+		name = "2. British Grenadierss"
+		type = artillery
+		home = 281
+	}
+	
+	regiment = {
+		name = "3. British Grenadiersd"
+		type = artillery
+		home = 300
+	}
+	
+	regiment = {
+		name = "4. British Grenadiersg"
+		type = artillery
+		home = 281
+	}
+
+	regiment = {
+		name = "5. British Grenadiersm"
+		type = artillery
+		home = 301
+	}
+
+	regiment = {
+		name = "British Chevauchee"
+		type = hussar
+		home = 302
+	}
+}
+
+army = {
+	name = "Army of the North"
+	location = 277
+	regiment = {
+		name = "1. British Infantry"
+		type = infantry
+		home = 296
+	}
+
+	regiment = {
+		name = "2. British Infantry"
+		type = infantry
+		home = 296
+	}
+	
+	regiment = {
+		name = "3 British Infantry"
+		type = infantry
+		home = 296
+	}
+	
+	regiment = {
+		name = "4 British Infantry"
+		type = infantry
+		home = 284
+	}
+	
+	regiment = {
+		name = "5 British Artillery"
+		type = artillery
+		home = 284
+	}
+
+	regiment = {
+		name = "2. British Artillery"
+		type = artillery
+		home = 277
+	}
+	
+	regiment = {
+		name = "3. British Artillery"
+		type = artillery
+		home = 277
+	}
+	
+	regiment = {
+		name = "4. British Artillery"
+		type = artillery
+		home = 277
+	}
+
+	regiment = {
+		name = "5. British Artillery"
+		type = artillery
+		home = 273
+	}
+
+	regiment = {
+		name = "2. British Chevauchee"
+		type = hussar
+		home = 273
+	}
+}
+
+navy = {
+	name = "Royal Fleet"
+	location = 303
+	
+	ship = {
+		name = "God Save The Queen"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Pycrete"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Henry"
+		type = frigate
+	}
+
+	ship = {
+		name = "Its coming home"
+		type = frigate
+	}
+
+	ship = {
+		name = "Proper Loicense"
+		type = frigate
+	}
+	
+		ship = {
+		name = "Expired Loicense"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Voided Loicense"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Fake Loicense"
+		type = frigate
+	}
+
+	ship = {
+		name = "Sharpened Knoife"
+		type = frigate
+	}
+
+	ship = {
+		name = "Bloody Knoife"
+		type = frigate
+	}
+
+	ship = {
+		name = "Transport Fleet"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "2e Transport Fleet"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "3e Transport Fleet"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "4e Transport Fleet"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "5e Transport Fleet"
+		type = clipper_transport
+	}
+
+		ship = {
+		name = "God Save The Queen"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Pycrete"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Henry"
+		type = frigate
+	}
+
+	ship = {
+		name = "SS Its coming home"
+		type = frigate
+	}
+
+	ship = {
+		name = "SS Proper Loicense"
+		type = frigate
+	}
+	
+		ship = {
+		name = "SS Expired Loicense"
+		type = frigate
+	}
+	
+	ship = {
+		name = "SS Voided Loicense"
+		type = frigate
+	}
+	
+	ship = {
+		name = "SS Fake Loicense"
+		type = frigate
+	}
+
+	ship = {
+		name = "SS Sharpened Knoife"
+		type = frigate
+	}
+
+	ship = {
+		name = "SS Bloody Knoife"
+		type = frigate
+	}
+
+	ship = {
+		name = "God Save The Queen"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Pycrete"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Henry"
+		type = frigate
+	}
+
+	ship = {
+		name = "Its coming home"
+		type = frigate
+	}
+
+	ship = {
+		name = "Proper Loicense"
+		type = frigate
+	}
+	
+		ship = {
+		name = "Expired Loicense"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Voided Loicense"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Fake Loicense"
+		type = frigate
+	}
+
+	ship = {
+		name = "Sharpened Knoife"
+		type = frigate
+	}
+
+	ship = {
+		name = "Bloody Knoife"
+		type = frigate
+	}
+
+	ship = {
+		name = "Transport Fleet"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "2e Transport Fleet"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "3e Transport Fleet"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "4e Transport Fleet"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "5e Transport Fleet"
+		type = clipper_transport
+	}
+
+		ship = {
+		name = "God Save The Queen"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Pycrete"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Henry"
+		type = frigate
+	}
+
+	ship = {
+		name = "SS Its coming home"
+		type = frigate
+	}
+
+	ship = {
+		name = "SS Proper Loicense"
+		type = frigate
+	}
+	
+		ship = {
+		name = "SS Expired Loicense"
+		type = frigate
+	}
+	
+	ship = {
+		name = "SS Voided Loicense"
+		type = frigate
+	}
+	
+	ship = {
+		name = "SS Fake Loicense"
+		type = frigate
+	}
+
+	ship = {
+		name = "SS Sharpened Knoife"
+		type = frigate
+	}
+
+	ship = {
+		name = "SS Bloody Knoife"
+		type = frigate
+	}
+
+	ship = {
+		name = "6e Transport Fleet"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "7e Transport Fleet"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "8e Transport Fleet"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "9e Transport Fleet"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "10e Transport Fleet"
+		type = clipper_transport
+	}
+}

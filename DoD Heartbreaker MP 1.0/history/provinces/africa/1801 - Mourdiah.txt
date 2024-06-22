@@ -1,0 +1,6 @@
+# FJA
+# FJA
+# FJA
+trade_goods = grain
+terrain = semidesert
+life_rating = 15

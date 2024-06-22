@@ -1,0 +1,72 @@
+leader = {
+	name = "Louis Vs"
+	type = land
+	date = 1836.1.1
+	personality = relentless
+	background = professor
+}
+
+army = {
+	name = "Armee des Defonce"
+	location = 379
+	regiment = {
+		name= "1e Brigade"
+		type = infantry
+		home = 378
+	}
+
+	regiment = {
+		name= "2e Brigade"
+		type = infantry
+		home = 380
+	}
+
+	regiment = {
+		name= "3e Brigade"
+		type = infantry
+		home = 379
+	}
+
+	regiment = {
+		name= "4e Brigade"
+		type = infantry
+		home = 379
+	}
+
+	regiment = { 
+		name= "Brigade d'Artillerie 2"
+		type = artillery
+		home = 577
+	}
+	
+	regiment = { 
+		name= "Brigade d'Chevauchee"
+		type = hussar
+		home = 376
+	}
+	
+	regiment = { 
+		name= "Brigade d'Artillerie 3"
+		type = artillery
+		home = 377
+	}
+
+	regiment = { 
+		name= "Brigade d'Artillerie 4"
+		type = artillery
+		home = 377
+	}
+	
+	regiment = { 
+		name= "Brigade d'Artillerie 5"
+		type = artillery
+		home = 377
+	}
+
+	regiment = { 
+		name= "Brigade d'Artillerie 1"
+		type = artillery
+		home = 382
+	}
+}
+

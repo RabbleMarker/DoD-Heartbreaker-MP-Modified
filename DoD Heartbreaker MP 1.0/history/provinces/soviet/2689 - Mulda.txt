@@ -1,0 +1,9 @@
+owner = NOV
+controller = NOV
+
+add_core = NOV
+add_core = MUS
+add_core = SIB
+trade_goods = cattle
+terrain = montane_tundra
+life_rating = 35

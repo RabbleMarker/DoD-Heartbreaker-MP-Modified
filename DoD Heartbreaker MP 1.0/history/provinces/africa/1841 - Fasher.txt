@@ -1,0 +1,6 @@
+# DAR
+# DAR
+# DAR
+trade_goods = wool
+life_rating = 15
+terrain = semidesert

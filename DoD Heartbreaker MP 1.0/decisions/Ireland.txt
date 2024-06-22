@@ -1,0 +1,50 @@
+political_decisions = {
+
+	independence_ire = {
+		picture = ireland
+		potential = { 
+			tag = IRE
+			NOT = { has_country_flag = indep}			
+		}
+
+		allow = {
+			war = yes
+		}	
+			
+		effect = { 
+			set_mobilisation_size = 0.5
+			money = 50000.00
+			prestige = 25
+			set_country_flag = indep 
+		}	
+	}
+
+	welsh_integration = {
+		potential = { 
+			OR = {
+				tag = IRE
+				tag = ENL
+				}
+			NOT = { has_country_flag = walesh}			
+		}
+
+		allow = {
+			owns = 273
+			positivism = 1 
+		}	
+			
+		effect = { 
+			add_accepted_culture = welsh
+			prestige = -5
+			money = -5000.00
+			set_country_flag = walesh
+		}	
+
+	}
+
+}
+
+
+
+
+

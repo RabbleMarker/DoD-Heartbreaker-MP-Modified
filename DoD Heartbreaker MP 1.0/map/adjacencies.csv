@@ -1,0 +1,434 @@
+From;To;Type;Through;Data;Comment
+#
+# American Straits
+#
+13;14;sea;3011;0;Vancouver Crossing
+14;78;sea;3011;0;Vancouver Crossing
+62;75;sea;2946;0;Straits of Belle Isle
+68;70;sea;2944;0;Cabot Strait
+#2237;2269;sea;2975;0;Strait of Trinidad
+2334;2335;sea;2992;0;Strait of Magellan
+2399;2400;sea;2992;0;Strait of Magellan
+77;74;sea;2944;0;Cabot Strait
+72;73;sea;2944;0;Nova Scotia to Cape Breton
+2237;2238;sea;2975;0;Trinidad-Tobago Strait
+2233;2409;sea;2975;0;Grenada-St. Vincent Strait
+2229;2409;sea;2975;0;Barbados-St. Vincent Strait
+2231;2409;sea;2975;0;St. Lucia-St. Vincent Strait
+#2231;2228;sea;2976;0;St. Lucia-Martinique Strait - STOP IT UK
+#2232;2228;sea;2976;0;Dominica-Martinique Strait - STOP IT UK
+#2232;2230;sea;2976;0;Dominica-Guadeloupe Strait - STOP IT UK
+#2225;2230;sea;2976;0;Montserrat-Guadeloupe Strait - STOP IT UK
+2225;2224;sea;2976;0;Montserrat-Antigua Strait
+2225;2227;sea;2976;0;Montserrat-St. Kitts Strait
+2236;3246;sea;2976;0;St. Martin-St. Barths Strait
+2227;3246;sea;2976;0;St. Kitts-St. Barths Strait
+2223;2226;sea;2976;0;St. Thomas-Tortola Strait
+2226;2222;sea;2976;0;Puerto Rico-Tortola Strait
+2219;2220;sea;2977;0;Bahamas-Turks & Caicos Strait
+2204;2206;sea;3001;0;Panama strait
+5;4;sea;3134;0;Aleutian Island-Dutch Harbor Strait
+
+#
+# African Straits
+#
+2036;2048;sea;2901;0;Zanzibar Strait
+2123;2124;sea;2902;0;Comoros-Mayotte
+1772;1756;sea;2781;0;Suez strait
+1772;1757;sea;2781;0;Sub Suez Strait
+
+#
+# European Straits
+#
+254;271;sea;2737;0;Irish Strait
+324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
+334;372;sea;2711;0;resund
+335;374;sea;2710;0;Bornholmsfrjan
+348;345;sea;2706;0;Aland Strait #Aland to Turku 
+353;349;sea;2709;0;selsund
+353;358;sea;2709;0;Strait of Riga
+372;373;sea;2711;0;Fyn-Sjaelland
+371;373;sea;2711;0;Fyn-Jylland
+2557;373;sea;2711;0;Fyn-Esbjerg
+375;385;sea;2722;0;Bay of Holland
+473;766;sea;2751;0;Sassari Strait
+826;824;sea;2764;0;Corfu Strait
+826;853;sea;2764;0;Corfu Strait
+838;845;sea;2772;0;Cyclades Strait
+838;834;sea;2772;0;Athens - Khakhis Strait
+843;869;sea;2772;0;Izmir Strait
+859;865;sea;2773;0;Dardanelles Strait
+860;861;land;2773;0;Golden Horn
+759;763;sea;2760;0;Strait of Messina
+759;763;sea;2757;0;Strait of Messina
+837;827;sea;2765;0;Ionian Islands Strait
+966;1049;sea;2776;0;Strait of Azov
+512;1686;sea;2746;0;Strait of Gibraltar - Cadiz to Tangiers
+846;872;sea;2771;0;Dodecanese Strait
+844;865;sea;2772;0;Myteline Strait
+271;304;sea;2737;0;Irish Strait
+254;304;sea;2737;0;Irish Strait
+267;1724;sea;2735;0;Inverness - Orkney Strait
+780;782;land;2762;0;Mostar Bay
+301;400;sea;2724;0;UK - France Strait
+343;349;sea;2707;0;Finland-Estonia
+418;415;sea;3321;0;Caen-Rouen
+416;415;sea;3321;0;Caen-Evereux
+416;2570;sea;3321;0;Caen-Beau
+425;427;sea;3321;0;Paris-Melun
+425;2570;sea;3321;0;Paris-Beau
+438;427;sea;3321;0;Orleans-Melun
+408;406;sea;3321;0;Chalons-Troyes
+407;406;sea;3321;0;Chaumont-Troyes
+427;406;sea;3321;0;Melun-Troyes
+407;429;sea;3321;0;Chaumont-Auxerre
+378;376;sea;3321;0;Middelburg-Rotterdam
+378;377;sea;3321;0;Middelburg-Utrect
+380;377;sea;3321;0;Breda-Utrect
+380;382;sea;3321;0;Breda-Arnhem
+379;382;sea;3321;0;Eindhoven-Arnhem
+577;581;sea;3321;0;Cleves-Munster
+577;578;sea;3321;0;Cleves-Dusseldorf
+575;2561;sea;3321;0;Cologne-Siegburg
+575;578;sea;3321;0;Cologne-Dusseldorf
+574;579;sea;3321;0;Kreuznach-Koblenz
+574;565;sea;3321;0;Kreuznach-Wiesbaden
+570;565;sea;3321;0;Mainz-Wiesbaden
+570;564;sea;3321;0;Mainz-Frankfurt
+570;2560;sea;3321;0;Mainz-Darmstadt
+571;569;sea;3321;0;Kaiserlautern-Mannheim
+571;586;sea;3321;0;Kaiserlautern-Karlsrube
+409;586;sea;3321;0;Strasbourg-Karlsrube
+409;587;sea;3321;0;Strasbourg-Freiburg
+410;587;sea;3321;0;Colmar-Freiburg
+604;587;sea;3321;0;Basel-Freiburg
+603;587;sea;3321;0;Zurich-Freiburg
+603;588;sea;3321;0;Zurich-Konstanz
+2724;3321;impassable;0;0;Seine River
+2723;3322;impassable;0;0;Rhine River
+2775;3323;impassable;0;0;Danube River
+2775;3324;impassable;0;0;4 River
+2709;3325;impassable;0;0;5 River
+2828;3326;impassable;0;0;6 River
+2826;3327;impassable;0;0;7 River
+2710;3328;impassable;0;0;8 River
+2710;3329;impassable;0;0;9 River
+2828;3330;impassable;0;0;10 River
+2828;3331;impassable;0;0;11 River
+2830;3331;impassable;0;0;11 River
+2721;3332;impassable;0;0;12 River
+2761;3333;impassable;0;0;13 River
+2961;3334;impassable;0;0;14 River
+2962;3334;impassable;0;0;14. River
+675;678;sea;3223;0;Tulcea-Izmail 
+675;673;sea;3223;0;Tulcea-Galati 
+675;668;sea;3223;0;Tulcea-Braila
+675;669;sea;3223;0;Tulcea-Calarsi 
+674;669;sea;3223;0;Constanta-Calarsi 
+818;669;sea;3223;0;Silistre-Calarsi 
+818;664;sea;3223;0;Silistre-Bucharest 
+811;664;sea;3223;0;Ruse-Bucharest 
+810;664;sea;3223;0;Vidin-Bucharest
+810;666;sea;3223;0;Vidin-Craiova
+795;666;sea;3223;0;Bor-Craiova  
+795;665;sea;3223;0;Bor-Tirgu Jiu  
+795;653;sea;3223;0;Bor-Resicabanya  
+795;792;sea;3223;0;Bor-Pancevo
+794;792;sea;3223;0;Belgrade-Pancevo
+794;791;sea;3223;0;Belgrade-Mitrovica
+794;786;sea;3223;0;Belgrade-Tuzla
+794;787;sea;3223;0;Belgrade-Foca
+793;786;sea;3223;0;Vukovar-Tuzla
+777;786;sea;3223;0;Pozega-Tuzla
+777;785;sea;3223;0;Pozega-Banja Luka
+2538;791;sea;3223;0;Novi Sad-Mitrovica
+792;791;sea;3223;0;Pancevo-Mitrovica
+2538;793;sea;3223;0;Novi Sad-Vukovar
+2538;779;sea;3223;0;Novi Sad-Osijek
+640;645;sea;3223;0;Pecs-Kecskemet
+644;645;sea;3223;0;Kaposvar-Kecskemet
+643;645;sea;3223;0;Szekesfehevar-Kecskemet
+643;641;sea;3223;0;Szekesfehevar-Budapest
+642;641;sea;3223;0;Gyor-Budapest
+642;646;sea;3223;0;Gyor-Miskolc
+642;635;sea;3223;0;Gyor-Nitra
+624;633;sea;3223;0;Eisenstadt-Bratislava
+623;633;sea;3223;0;Sopron-Bratislava
+620;633;sea;3223;0;Sankt Polten-Bratislava
+620;619;sea;3223;0;Sankt Polten-Vienna
+620;621;sea;3223;0;Sankt Polten-Krems
+622;621;sea;3223;0;Linz-Krems
+600;602;sea;3223;0;Landshut-Regnsburg
+601;595;sea;3223;0;Ingolstadt-Nuremburg
+592;595;sea;3223;0;Augsburg-Nuremburg
+592;589;sea;3223;0;Augsburg-Stuttgart
+593;589;sea;3223;0;Ulm-Stuttgart
+593;594;sea;3223;0;Ulm-Sigmaringen
+588;594;sea;3223;0;Konstanz-Sigmaringen
+587;594;sea;3223;0;Konstanz-Freiburg
+970;965;sea;3224;0;Nikolaev-Cherson
+970;973;sea;3224;0;Nikolaev-Melitopol
+971;973;sea;3224;0;Krivoy Rog-Melitopol
+972;973;sea;3224;0;Ekaterinoslav-Melitopol
+972;974;sea;3224;0;Ekaterinoslav-Kramatorsk
+972;963;sea;3224;0;Ekaterinoslav-Poltava
+961;963;sea;3224;0;Cherkassy-Poltava
+971;963;sea;3224;0;Krivoy-Poltava
+958;962;sea;3224;0;Kiev-Chernigov
+959;962;sea;3224;0;Korosten-Chernigov
+942;962;sea;3224;0;Mozyr-Chernigov
+942;949;sea;3224;0;Mozyr-Gomel
+948;949;sea;3224;0;Mogilev-Gomel
+948;944;sea;3224;0;Mogilev-Orsha
+945;944;sea;3224;0;Vitebsk-Orsha
+999;943;sea;3224;0;Rzhev-Smolensk
+999;1007;sea;3225;0;Rzhev-Velikye Luke
+945;1007;sea;3225;0;Vitebsk-Velikye Luke
+945;946;sea;3225;0;Vitebsk-Polotsk
+947;946;sea;3225;0;Pastavy-Polotsk
+947;356;sea;3225;0;Pastavy-Daugavpils
+357;356;sea;3225;0;Jelgava-Daugavpils
+357;355;sea;3225;0;Jelgava-Valmiera
+357;354;sea;3225;0;Jelgava-Riga
+690;693;sea;3228;0;Danzig-Elbing
+691;693;sea;3228;0;Tuchel-Elbing
+691;694;sea;3228;0;Tuchel-Torun
+700;694;sea;3228;0;Bromberg-Torun
+710;708;sea;3228;0;Vistula strait 
+706;708;sea;3228;0;Vistula strait 
+706;711;sea;3228;0;Vistula strait 
+713;711;sea;3228;0;Vistula strait 
+713;715;sea;3228;0;Vistula strait 
+713;705;sea;3228;0;Vistula strait 
+716;714;sea;3228;0;Vistula strait 
+716;703;sea;3228;0;Vistula strait 
+716;705;sea;3228;0;Vistula strait 
+685;2584;sea;3228;0;Vistula strait 
+547;546;sea;3229;0;Oder strait 
+550;546;sea;3229;0;Oder strait 
+550;681;sea;3229;0;Oder strait 
+552;681;sea;3229;0;Oder strait 
+681;682;sea;3229;0;Oder strait 
+684;682;sea;3229;0;Oder strait 
+688;685;sea;3229;0;Oder strait 
+688;689;sea;3229;0;Oder strait 
+688;631;sea;3229;0;Oder strait 
+531;528;sea;3332;0;Elbian strait 
+532;528;sea;3332;0;Elbian strait 
+532;529;sea;3332;0;Elbian strait 
+532;544;sea;3332;0;Elbian strait 
+532;551;sea;3332;0;Elbian strait 
+557;551;sea;3332;0;Elbian strait 
+557;555;sea;3332;0;Elbian strait 
+556;555;sea;3332;0;Elbian strait 
+553;555;sea;3332;0;Elbian strait 
+556;552;sea;3332;0;Elbian strait 
+559;552;sea;3332;0;Elbian strait 
+559;558;sea;3332;0;Elbian strait 
+627;558;sea;3332;0;Elbian strait 
+627;628;sea;3332;0;Elbian strait 
+627;558;sea;3332;0;Elbian strait 
+742;731;sea;3333;0;Po strait 
+742;730;sea;3333;0;Po strait 
+739;730;sea;3333;0;Po strait 
+739;728;sea;3333;0;Po strait 
+738;726;sea;3333;0;Po strait 
+738;728;sea;3333;0;Po strait 
+723;726;sea;3333;0;Po strait 
+2149;138;sea;3334;0;Rio Grande strait 
+2148;138;sea;3334;0;Rio Grande strait 
+2147;138;sea;3334;0;Rio Grande strait
+2147;136;sea;3334;0;Rio Grande strait 
+2144;136;sea;3334;0;Rio Grande strait 
+2143;136;sea;3334;0;Rio Grande strait 
+2143;105;sea;3334;0;Rio Grande strait 
+104;105;sea;3334;0;Rio Grande strait 
+108;105;sea;3334;0;Rio Grande strait 
+108;103;sea;3334;0;Rio Grande strait 
+#
+# Asian Straits
+#
+
+1567;1570;sea;3226;0;Qingzhou-Wuding
+1568;1570;sea;3226;0;Taian-Wuding
+1568;1563;sea;3226;0;Taian-Jinan
+1568;1515;sea;3226;0;Taian-Weihui
+1564;1515;sea;3226;0;Caozhou-Weihui
+1508;1515;sea;3226;0;Kaifeng-Weihui
+1508;1511;sea;3226;0;Kaifeng-Huaiqing
+1510;1511;sea;3226;0;Henan-Huaiqing
+1510;1575;sea;3226;0;Henan-Pingyang
+2062;1575;sea;3226;0;Henan-Pingyang
+1561;1575;sea;3226;0;Yenan-Pingyang
+1561;1573;sea;3226;0;Yenan-Fenzhou
+1572;1573;sea;3226;0;Yenan-Taiyuan
+1491;1532;sea;3226;0;Ningxia-Guihua Tumed
+1491;1535;sea;3226;0;Ningxia-Yeke Juu
+1491;1490;sea;3226;0;Ningxia-Lanzhou
+1490;1492;sea;3226;0;Lanzhou-Pingliang
+1490;1489;sea;3226;0;Lanzhou-Gongchang
+1557;1489;sea;3226;0;Balekungomi-Gongchang
+1557;1582;sea;3226;0;Balekungomi-Longan
+1541;1537;sea;3227;0;Yangtz Strait 
+1541;1544;sea;3227;0;Yangtz Strait 
+1543;1544;sea;3227;0;Yangtz Strait 
+1543;2221;sea;3227;0;Yangtz Strait 
+1477;2221;sea;3227;0;Yangtz Strait 
+1477;1475;sea;3227;0;Yangtz Strait 
+1474;1475;sea;3227;0;Yangtz Strait 
+1471;1474;sea;3227;0;Yangtz Strait 
+1471;1470;sea;3227;0;Yangtz Strait
+1549;1470;sea;3227;0;Yangtz Strait
+1549;1518;sea;3227;0;Yangtz Strait
+1522;1518;sea;3227;0;Yangtz Strait
+1522;1516;sea;3227;0;Yangtz Strait
+1528;1516;sea;3227;0;Yangtz Strait
+1528;1520;sea;3227;0;Yangtz Strait
+1521;1520;sea;3227;0;Yangtz Strait
+1521;1581;sea;3227;0;Yangtz Strait
+1577;1583;sea;3227;0;Yangtz Strait
+1580;1585;sea;3227;0;Yangtz Strait
+1580;1601;sea;3227;0;Yangtz Strait
+1479;1480;sea;3330;0;Mukden Strait
+1533;1480;sea;3330;0;Mukden Strait
+1533;1613;sea;3330;0;Mukden Strait
+1534;1613;sea;3330;0;Mukden Strait
+1479;1620;sea;3331;0;Korean Strait
+1555;1620;sea;3331;0;Korean Strait
+1555;1623;sea;3331;0;Korean Strait
+1555;1622;sea;3331;0;Korean Strait
+1554;1622;sea;3331;0;Korean Strait
+1082;1622;sea;3331;0;Korean Strait
+1540;1538;sea;2826;0;Nantong - Shanghai through the Yantze River
+1540;1539;sea;2826;0;Nantong - Suzhou through the Yantze River
+1541;1539;sea;2826;0;Tongzhou - Suzhou through the Yantze River
+1452;1454;sea;2856;0;Biak - Merah Strait
+2406;1485;sea;2825;0;Penghu - Taiwan Strait
+1071;1142;sea;2787;0;Bandar abbhas - Homuz Strait
+1071;1141;sea;2787;0;Lengeh - Homuz Strait
+1083;1086;sea;2832;0;Tatar Straits
+1162;1165;sea;2788;0;Bahrain Strait
+1309;1322;sea;2794;0;Palk Strait #Ceylon-S India
+1310;1322;sea;2794;0;Palk Strait #Ceylon-S India
+1384;1402;sea;2814;0;Straits of Johore
+1384;1385;sea;2814;0;Straits of Johore to Singapore
+1403;1413;land;2805;0;Sunda Strait
+1180;1851;sea;2782;0;Aden Strait
+1412;1875;sea;2783;0;Aden Strait
+1418;1421;sea;2811;0;Strait of Madura
+1420;1438;sea;2811;0;Bali Strait
+1438;1442;sea;2811;0;Lombok Strait
+1442;1440;sea;2811;0;Sumbawa Strait
+1495;1499;sea;2823;0;Hainan Strait
+1457;1461;sea;2849;0;Tacloban Strait
+1640;1660;land;2843;0;Fukuoka Strait
+1642;1672;sea;2841;0;Hakodate Strait
+1664;1666;land;2843;0;Matsuyama Strait
+1667;1659;land;2843;0;Setto Strait
+1411;1408;sea;2803;0;Gunungsitoli Strait
+1404;1399;land;2813;0;Palak Panang Strait
+1402;1398;sea;2814;0;Tanjungpinang Strait
+1458;1455;land;2848;0;Mindoro Strait
+1458;1459;sea;2848;0;Mindoro Strait
+1458;1460;land;2850;0;Mindoro Strait
+2565;1461;land;2850;0;Cebu Strait
+2565;1460;land;2850;0;Cebu Strait
+1461;1463;land;2850;0;Davao Strait
+1462;1460;land;2850;0;Iloilo Strait
+1462;1464;sea;2851;0;Sulu Strait
+1397;1464;sea;2851;0;Sulu Sea #Borneo-Phillipines
+1440;1439;sea;2810;0;Sumbawa-Flores Strait
+1440;1441;sea;2808;0;Sumbawa-Sumba Strait
+1441;1443;sea;2809;0;Sumba-Roti Strait
+1443;1445;sea;2809;0;Roti-Kaupeng Strait
+1439;1444;sea;2809;0;Flores-Alor Strait
+1444;1446;sea;2809;0;Alor-Dili Strait
+1444;1451;sea;2854;0;Alor-Aru Strait
+1446;1451;sea;2854;0;Dili-Aru Strait
+1450;1449;sea;2853;0;Ceram-Ambon Strait
+1449;1447;sea;2852;0;Ambon Strait
+1447;1448;sea;2853;0;Ternate-Jilolo Strait
+1451;1453;sea;2862;0;Aru-Sorong Strait
+1450;1453;sea;2853;0;Ceram-Sorong Strait
+1447;1434;sea;2852;0;Ternate Strait
+1437;1436;sea;2810;0;Bulon-Kendari Strait
+1435;1425;sea;2812;0;Palu-Tarakan Strait
+1644;1089;sea;2839;0;Nemuru-Etorofu Strait
+1089;1088;sea;2839;0;Etorofu-Shumshu Strait
+1679;1678;sea;2845;0;Amari-Okinawa Strait
+1637;1635;sea;2829;0;Cheju-Kwangju Strait
+#
+# Oceanian Straits
+#
+2512;2516;sea;2876;0;Cook Strait #NZ
+2512;2516;sea;2881;0;Cook Strait #NZ
+2537;1531;sea;2858;0;Villan Strait #New Britain-New Ireland
+2488;2529;sea;2860;0;Torres Strait #Australia-Papa New Guinea
+2501;1443;sea;2809;0;Timor Sea #Australia-Timor
+
+#
+# Impassables
+#
+1326;1589;impassable;0;0;scary mountain
+1326;1592;impassable;0;0;scary mountain
+1328;1589;impassable;0;0;scary mountain
+1329;1589;impassable;0;0;scary mountain
+1329;1590;impassable;0;0;scary mountain
+1329;1590;impassable;0;0;scary mountain
+1329;1593;impassable;0;0;scary mountain
+1258;1593;impassable;0;0;scary mountain
+1260;1593;impassable;0;0;scary mountain
+1259;1593;impassable;0;0;scary mountain
+1238;1592;impassable;0;0;scary mountain
+1244;1592;impassable;0;0;scary mountain
+1235;1592;impassable;0;0;scary mountain
+1226;1592;impassable;0;0;scary mountain
+1327;1592;impassable;0;0;scary mountain
+1328;1592;impassable;0;0;scary mountain
+1225;1594;impassable;0;0;scary mountain
+1226;1594;impassable;0;0;scary mountain
+1210;1594;impassable;0;0;scary mountain
+1208;1594;impassable;0;0;scary mountain
+1326;1328;impassable;0;0;scary mountain
+1328;1252;impassable;0;0;scary mountain
+1328;1329;impassable;0;0;scary mountain
+
+#Alps
+
+#727;735;impassable;0;0;Bergamo-Bozen
+#727;734;impassable;0;0;Bergamo-Trent
+#732;735;impassable;0;0;Treviso-Bozen
+#732;615;impassable;0;0;Treviso-Lienz
+#732;618;impassable;0;0;Treviso-Klagenfurth
+#733;618;impassable;0;0;Udine-Klagenfurt
+2669;735;impassable;0;0;Sondrio-Bozen
+2669;734;impassable;0;0;Sondrio-Trent
+2669;611;impassable;0;0;Sondrio-Chur
+2669;2568;impassable;0;0;Sondrio-Lugano
+8;735;impassable;0;0;Belluno-Bozen
+8;615;impassable;0;0;Belluno-Lienz
+8;618;impassable;0;0;Belluno-Klagenfurt
+#727;611;impassable;0;0;Bergamo-Chur
+#727;2568;impassable;0;0;Bergamo-Lugano
+722;605;impassable;0;0;Novara-Bern
+2568;722;impassable;0;0;Lugano-Novara
+609;722;impassable;0;0;Sitten-Novara
+606;722;impassable;0;0;Lucerne-Novara
+
+#Alaskan Panhandle
+
+2;6;impassable;0;0;
+2;17;impassable;0;0;
+1;15;impassable;0;0;
+1;16;impassable;0;0;
+1;17;impassable;0;0;
+
+#
+# The canals
+#
+2711;2721;canal;369;1;Kiel Canal
+2781;2769;canal;1755;2;Suez Canal
+2968;3001;canal;1723;3;Panama Canal
+#2773;2774;canal;860;4;Bosphorus Strait
+#2772;2773;canal;859;5;Dardanelles Strait
+#2724;2723;canal;301;6;English Channel

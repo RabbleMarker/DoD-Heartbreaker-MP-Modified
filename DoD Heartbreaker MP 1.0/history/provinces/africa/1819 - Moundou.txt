@@ -1,0 +1,5 @@
+# KAN
+# KAN
+# KAN
+trade_goods = cotton
+life_rating = 15

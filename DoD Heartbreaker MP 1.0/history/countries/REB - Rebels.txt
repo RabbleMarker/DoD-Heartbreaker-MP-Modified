@@ -1,0 +1,10 @@
+oob = "REB_oob.txt"
+basic_chemistry = 1
+military_staff_system = 1
+flintlock_rifles = 1
+introspectionism = 1
+chemotherapy = yes
+prophylaxis_against_malaria = yes
+1836.1.2 = {
+	oob = "/1861/REB_oob.txt"
+}

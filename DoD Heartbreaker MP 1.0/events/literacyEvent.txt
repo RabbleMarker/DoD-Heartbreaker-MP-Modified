@@ -1,0 +1,125 @@
+#Scandi literacy event
+country_event = {
+	id = 100014
+	title = "EVTNAME100014"
+	desc = "EVTDESC100014"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = SCA	
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = "EVTOPTA100014"
+		any_pop = {
+		      limit = {
+			    has_pop_culture = pomeranian
+				}
+			literacy = 0.35
+		}
+	}
+}
+
+#BRG literacy event
+country_event = {
+	id = 100015
+	title = "EVTNAME100015"
+	desc = "EVTDESC100015"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = BRG	
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = "EVTOPTA100015"
+		any_pop = {
+		      limit = {
+			    has_pop_culture = rheinish
+				}
+			literacy = 0.40
+		}
+	}
+}
+
+#CLM literacy events
+country_event = {
+	id = 100016
+	title = "Gran Colombia Literacy Adjustment Pt 1"
+	desc = "Makes Lusitanian and Granadans slightly smarter. This will be balanced out later by making the natives dumber."
+	fire_only_once = yes
+	
+	trigger = {
+	tag = CLM	
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "Nice"
+		any_pop = {
+		      limit = {
+			OR = {
+			    has_pop_culture = granadan
+			    has_pop_culture = lusitanian
+					}
+				}
+			literacy = 0.05
+		}
+	}
+}
+
+country_event = {
+	id = 100017
+	title = "Gran Colombia Literacy Adjustment Pt 2"
+	desc = "Nerfs the Natives down to 5% literacy."
+	fire_only_once = yes
+	
+	trigger = {
+	tag = CLM	
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "fuck"
+		any_pop = {
+		      limit = {
+			OR = {
+			    has_pop_culture = native_american_minor
+			    has_pop_culture = quechua
+			    has_pop_culture = amazonian_native
+					}
+				}
+			literacy = -0.05
+		}
+	}
+}
+
+#BRG literacy event
+country_event = {
+	id = 100018
+	title = "Amerigan Literacy fix"
+	desc = "Adjusts the Lotharians in Amazonie to not be retarded"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = AMA	
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = "They're not retarded!"
+		any_pop = {
+		      limit = {
+			    has_pop_culture = lotharian
+				}
+			literacy = 0.28
+		}
+	}
+}

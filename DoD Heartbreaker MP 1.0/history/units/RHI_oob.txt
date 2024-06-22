@@ -1,0 +1,43 @@
+leader = {
+	name = "Gene Kraut"
+	type = land
+	date = 1836.1.1
+	personality = cursed_luck
+	background = general_aide
+}
+
+army = {
+	name = "Armie des Defonce"
+	location = 574
+	regiment = { 
+		name= "Brigade d'Artillerie 2"
+		type = artillery
+		home = 575
+	}
+	
+	regiment = { 
+		name= "Brigade d'Kavallerie"
+		type = hussar
+		home = 575
+	}
+	
+	regiment = { 
+		name= "Brigade d'Artillerie 3"
+		type = artillery
+		home = 575
+	}
+
+	regiment = { 
+		name= "Brigade d'Artillerie 4"
+		type = artillery
+		home = 576
+	}
+	
+	regiment = { 
+		name= "Brigade d'Artillerie 5"
+		type = artillery
+		home = 571
+	}
+
+}
+

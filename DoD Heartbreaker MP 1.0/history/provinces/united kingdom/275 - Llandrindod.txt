@@ -1,0 +1,14 @@
+owner = DUA
+controller = DUA
+add_core = DUA
+add_core = ENL
+add_core = WLS
+trade_goods = sulphur
+life_rating = 32
+1861.1.1 = { railroad = 3 }
+
+1836.1.2 = {
+	owner = ENL
+	controller = ENL
+	colonial = 0
+}

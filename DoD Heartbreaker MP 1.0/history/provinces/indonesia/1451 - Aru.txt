@@ -1,0 +1,13 @@
+owner = DUA
+controller = DUA
+add_core = BAL
+add_core = NUS
+trade_goods = fish
+life_rating = 30
+colonial = 1
+
+1836.1.2 = {
+	owner = ENL
+	controller = ENL
+	colonial = 0
+}

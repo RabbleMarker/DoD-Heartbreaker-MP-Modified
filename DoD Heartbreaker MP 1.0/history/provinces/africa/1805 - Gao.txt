@@ -1,0 +1,6 @@
+# MAL
+# MAL
+# MAL
+trade_goods = sulphur
+terrain = semidesert
+life_rating = 15

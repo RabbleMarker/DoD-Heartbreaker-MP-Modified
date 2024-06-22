@@ -1,0 +1,6 @@
+# ILO
+# ILO
+# ILO
+# SOK
+trade_goods = fruit
+life_rating = 20

@@ -1,0 +1,7 @@
+# ILO
+# ILO
+# ILO
+# SOK
+trade_goods = cattle
+terrain = semidesert
+life_rating = 20
