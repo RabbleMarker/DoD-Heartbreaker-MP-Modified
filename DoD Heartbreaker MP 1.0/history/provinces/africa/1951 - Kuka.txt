@@ -1,7 +1,0 @@
-# KAN
-# KAN
-# SOK
-# KAN
-trade_goods = cotton
-terrain = semidesert
-life_rating = 15

@@ -1,7 +1,0 @@
-# KNO
-# KNO
-# KNO
-# SOK
-trade_goods = cattle
-life_rating = 10
-terrain = semidesert

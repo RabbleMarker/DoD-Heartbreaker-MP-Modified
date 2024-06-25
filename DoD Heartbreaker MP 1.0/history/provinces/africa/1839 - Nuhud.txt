@@ -1,7 +1,0 @@
-# DAR
-# DAR
-# DAR
-add_core = FUN
-trade_goods = grain
-terrain = semidesert
-life_rating = 30

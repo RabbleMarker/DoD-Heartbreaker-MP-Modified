@@ -1,5 +1,0 @@
-# ASH
-# ASH
-# ASH
-trade_goods = cattle
-life_rating = 15

@@ -1,7 +1,0 @@
-# DAR
-# DAR
-add_core = FUN
-# DAR
-trade_goods = cattle
-life_rating = 31
-terrain = desert

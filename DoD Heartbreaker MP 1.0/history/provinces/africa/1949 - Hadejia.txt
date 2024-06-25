@@ -1,6 +1,0 @@
-# KNO
-# KNO
-# KNO
-trade_goods = coal
-terrain = semidesert
-life_rating = 20

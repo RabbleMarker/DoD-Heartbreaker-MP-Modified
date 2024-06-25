@@ -1,7 +1,0 @@
-owner = DNG
-controller = DNG
-add_core = DNG
-trade_goods = fruit
-terrain = semidesert
-life_rating = 35
-colonial = 1

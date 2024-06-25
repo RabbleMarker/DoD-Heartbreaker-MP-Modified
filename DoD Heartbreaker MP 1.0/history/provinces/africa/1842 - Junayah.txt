@@ -1,5 +1,0 @@
-# DAR
-# DAR
-# DAR
-trade_goods = grain
-life_rating = 10

@@ -1,0 +1,6 @@
+owner = SPA
+controller = SPA
+colonial = 2
+trade_goods = sulphur
+life_rating = 15
+

@@ -1,0 +1,12 @@
+owner = DUA
+controller = DUA
+add_core = DUA
+add_core = FRA
+trade_goods = fruit
+life_rating = 33
+1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = furniture_factory
+	upgrade = yes
+}

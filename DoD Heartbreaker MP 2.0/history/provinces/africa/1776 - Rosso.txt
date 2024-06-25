@@ -1,0 +1,5 @@
+owner = VEN
+controller = VEN
+trade_goods = wool
+life_rating = 30
+colonial = 2

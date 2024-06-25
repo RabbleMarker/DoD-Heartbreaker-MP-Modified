@@ -1,5 +1,0 @@
-# ASH
-# ASH
-# ASH
-trade_goods = fruit
-life_rating = 15

@@ -1,6 +1,0 @@
-owner = SCA
-controller = SCA
-# ASH
-trade_goods = cattle
-life_rating = 35
-colonial = 1

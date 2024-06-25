@@ -1,6 +1,0 @@
-# KAN
-# KAN
-# KAN
-trade_goods = grain
-terrain = semidesert
-life_rating = 10

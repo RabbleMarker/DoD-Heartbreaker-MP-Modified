@@ -1,7 +1,0 @@
-owner = SCA
-controller = SCA
-# ASH
-trade_goods = coffee
-life_rating = 35
-colonial = 1
-naval_base = 1

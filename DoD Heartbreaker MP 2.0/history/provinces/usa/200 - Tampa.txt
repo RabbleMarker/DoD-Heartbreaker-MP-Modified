@@ -1,0 +1,11 @@
+owner = VEN
+controller = VEN 
+
+trade_goods = fruit
+
+life_rating = 35
+
+is_slave = yes
+
+colony = 2
+naval_base = 1

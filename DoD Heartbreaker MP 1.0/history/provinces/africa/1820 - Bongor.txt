@@ -1,5 +1,0 @@
-# KAN
-# KAN
-# KAN
-trade_goods = grain
-life_rating = 15
