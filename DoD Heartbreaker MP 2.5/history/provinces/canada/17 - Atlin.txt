@@ -1,0 +1,13 @@
+owner = JAP
+controller = JAP 
+add_core = AIN
+colonial = 2
+trade_goods = timber
+life_rating = 25
+1836.1.2 = {
+	remove_core = COM
+	owner = CAN
+	controller = CAN
+	add_core = CAN
+	colonial = 0
+}

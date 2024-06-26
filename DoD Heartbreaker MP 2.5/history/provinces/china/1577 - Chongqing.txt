@@ -1,0 +1,10 @@
+owner = TPG
+controller = TPG
+add_core = TPG
+add_core = CHI
+#add_core = SZC
+#add_core = TPG
+#add_core = YNN
+trade_goods = tea
+life_rating = 32
+

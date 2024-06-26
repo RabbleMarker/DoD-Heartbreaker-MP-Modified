@@ -1,0 +1,7 @@
+owner = JAP
+controller = JAP 
+add_core = AIN
+colonial = 2
+trade_goods = grain
+life_rating = 15
+
