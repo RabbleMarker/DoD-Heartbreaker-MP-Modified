@@ -1,0 +1,67 @@
+#China substates
+
+substate = {
+	first = PLC
+	second = PRU
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = PLC
+	second = LIT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = PLC
+	second = BYE
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = PLC
+	second = UKR
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = MCK
+	second = KOR
+	start_date = 1835.1.1
+	end_date = 1895.5.17 #Treaty of Shimonoseki
+}
+
+vassal = {
+	first = ARN
+	second = NAV
+	start_date = 1773.1.1
+	end_date = 1864.10.30
+}
+
+
+
+# Switzerland-Liechtenstein
+#vassal = {
+#	first = SWI
+#	second = LEI
+#	start_date = 1836.1.1
+#	end_date = 1999.1.1	
+#}
+
+#######################
+#        INDIA        #
+#######################
+
+# Dai Nam-Cambodia
+
+
+#########1861
+# Siam - Cambodia
+
+# OE - Hejaz 
+#vassal = {
+#	first = TUR
+#	second = HDJ
+#	start_date = 1861.1.1
+#	end_date = 1936.1.1
+#}

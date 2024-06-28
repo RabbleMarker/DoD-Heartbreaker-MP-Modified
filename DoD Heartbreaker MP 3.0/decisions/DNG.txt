@@ -1,0 +1,102 @@
+political_decisions = {	
+	shining_liberty_dng = { 
+		picture = statue_liberté
+		potential = {	
+			tag = DNG
+			NOT = { has_country_flag = shining_liberty_dng }
+			has_country_flag = qingqiu_dng
+		}
+		allow = {
+			state_n_government = 1
+			functionalism = 1
+		}
+		effect = {
+			set_country_flag = shining_liberty_dng
+			add_country_modifier = {
+				name = the_homestead_act 
+				duration = -1
+			}
+		}
+	}
+	
+	zhourao_dng = {
+		picture = zuharra
+		potential = {
+			tag = DNG
+			NOT = { has_country_flag = dng_path_chosen }
+			}
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = dng_path_chosen
+			set_country_flag = zhourao_dng
+			prestige = 5
+		}
+	}
+
+	nusantara_dng = {
+		picture = nusantara
+		potential = {
+			tag = DNG
+			has_country_flag = zhourao_dng
+			NOT = { has_country_flag = dng_strait }
+			}
+		allow = {
+			war = no
+			nationalism_n_imperalism = 1
+			2529 = { empty = yes }
+			2529 = { empty = yes }
+		}
+		effect = {
+			badboy = 5
+			set_country_flag = dng_strait
+			enable_canal = 7
+			AST_2528 = { life_rating = 15 }
+			GER_2530 = { life_rating = 15 }
+			2529 = { secede_province = DNG }
+			2528 = { secede_province = DNG }
+			2530 = { secede_province = DNG }
+			2531 = { secede_province = DNG }
+		}
+	}
+
+	qingqiu_dng = { 
+		picture = qingqiu_destiny
+		potential = {
+			tag = DNG
+			NOT = { has_country_flag = dng_path_chosen }
+			}
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = dng_path_chosen
+			set_country_flag = qingqiu_dng
+			capital = 84
+		}
+	}
+
+	dng_manifest_destiny = { # Qingqiu
+		picture = lusitania
+		potential = {
+			tag = DNG
+			NOT = { has_country_flag = dng_manifest_destiny }
+			has_country_flag = qingqiu_dng
+		}
+		allow = {
+			owns = 90
+			nationalism_n_imperialism = 1
+			}
+		effect = {
+			badboy = 10
+			add_accepted_culture = lusitanian
+			set_country_flag = dng_manifest_destiny
+			LST = {
+				all_core = {
+					add_core = DNG
+				}
+			}
+		}
+	}
+}

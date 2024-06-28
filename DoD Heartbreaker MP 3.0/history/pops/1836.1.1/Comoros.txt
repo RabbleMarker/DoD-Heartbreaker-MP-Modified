@@ -1,0 +1,125 @@
+#Comoro Islands Region (64000)
+#uncolonized in 1836/dominated by sultan of Anjouan
+#Comoro Islands (56000/14000 POPS)
+2123 = {
+    clergymen = {
+        culture = melanesian
+        religion = sunni
+        size = 25
+    }
+
+    artisans = {
+        culture = melanesian
+        religion = sunni
+        size = 50
+    }
+
+    soldiers = {
+        culture = melanesian
+        religion = sunni
+        size = 10
+    }
+
+    farmers = {
+        culture = melanesian
+        religion = sunni
+        size = 400
+    }
+
+    aristocrats = {
+        culture = melanesian
+        religion = animist
+        size = 15
+    }
+
+    clergymen = {
+        culture = melanesian
+        religion = animist
+        size = 25
+    }
+
+    artisans = {
+        culture = melanesian
+        religion = animist
+        size = 50
+    }
+
+    soldiers = {
+        culture = melanesian
+        religion = animist
+        size = 10
+    }
+
+    farmers = {
+        culture = melanesian
+        religion = animist
+        size = 900
+    }
+
+    slaves = {
+        culture = melanesian
+        religion = animist
+        size = 500
+    }
+}
+2124 = {
+    clergymen = {
+        culture = melanesian
+        religion = sunni
+        size = 67
+    }
+
+    artisans = {
+        culture = melanesian
+        religion = sunni
+        size = 50
+    }
+
+    soldiers = {
+        culture = melanesian
+        religion = sunni
+        size = 10
+    }
+
+    farmers = {
+        culture = melanesian
+        religion = sunni
+        size = 400
+    }
+
+    aristocrats = {
+        culture = melanesian
+        religion = animist
+        size = 15
+    }
+
+    clergymen = {
+        culture = melanesian
+        religion = animist
+        size = 67
+    }
+
+    artisans = {
+        culture = melanesian
+        religion = animist
+        size = 50
+    }
+
+    soldiers = {
+        culture = melanesian
+        religion = animist
+        size = 10
+    }
+
+    farmers = {
+        culture = melanesian
+        religion = animist
+        size = 900
+    }
+
+    slaves = {
+        culture = melanesian
+        religion = animist
+        size = 500
+    }
+}
