@@ -1,0 +1,129 @@
+political_decisions = {	
+	return_home_BTV = {
+		picture = old_netherlands
+		potential = {
+			tag = BTV
+		}
+		
+		allow = {
+			NOT = { NET = { exists = yes } }
+			NOT = { war = yes }
+			nationalism_n_imperialism = 1
+			NET = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+	
+		effect = {
+			prestige = 20
+			change_tag = NET
+			primary_culture = dutch
+			add_accepted_culture = boer
+			capital = 375
+			BTV = { all_core = { add_core = NET } }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    dutch_flanders = {
+        picture = become_belgium
+        potential = {
+            tag = NET
+            has_country_flag = flanders_reclaimed
+            NOT = { has_global_flag = flanders_renamed }
+        }
+
+        allow = {
+            all_core = { owned_by = THIS }
+        }
+
+        effect = {
+            387 = { change_province_name = "Brussel" }
+            388 = { change_province_name = "Brugge" }
+            389 = { change_province_name = "Ghent" }
+            390 = { change_province_name = "Antwerp" }
+            393 = { change_province_name = "Doornik" }
+            set_global_flag = flanders_renamed
+        }
+    }
+
+    burgundian_flanders = {
+        picture = become_belgium
+        potential = {
+            has_global_flag = flanders_renamed
+            tag = BRG
+        }
+
+        allow = {
+            387 = { owned_by = THIS }
+            388 = { owned_by = THIS }
+            2636 = { owned_by = THIS }
+        }
+
+        effect = {
+            clr_global_flag = flanders_renamed
+            387 = { change_province_name = "Bruxelles" }
+            388 = { change_province_name = "Bruges" }
+            389 = { change_province_name = "Gand" }
+            390 = { change_province_name = "Anvers" }
+            393 = { change_province_name = "Tournai" }
+        }
+    }
+
+
+	westward_colonization = {
+		picture = HHR_colony
+		potential = {
+			tag = BTV
+			NOT = {has_country_flag = westward_colonization}
+		}
+		allow = {
+			medicine = 1
+			idealism = 1
+			2083 = {empty = yes}
+			2079 = {empty = yes}
+		}
+		effect = {
+			set_country_flag = westward_colonization
+			2086 = { secede_province = BTV}
+			2084 = { secede_province = BTV}
+			2085 = { secede_province = BTV}
+			2083 = { secede_province = BTV}
+			2078 = { secede_province = BTV}
+			2079 = { secede_province = BTV}
+			2080 = { secede_province = BTV}
+			2082 = { secede_province = BTV}
+			2081 = { secede_province = BTV}
+			GER_2084 = {life_rating = 15} 
+			GER_2078 = {life_rating = 15}
+		}
+	}
+	eastward_colonization = {
+		picture = GAN_colony
+		potential = {
+			tag = BTV
+			NOT = {has_country_flag = eastward_colonization}
+		}
+		allow = {
+			medicine = 1
+			idealism = 1
+			2072 = {empty = yes}
+		}
+		effect = {
+			set_country_flag = eastward_colonization
+			2071 = { secede_province = BTV}
+			2073 = { secede_province = BTV}
+			2069 = { secede_province = BTV}
+			2072 = { secede_province = BTV}
+			2070 = { secede_province = BTV}
+			2068 = { secede_province = BTV}
+			2635 = { secede_province = BTV}
+			ENG_2068 = {life_rating = 15} 
+		}
+	}
+}

@@ -1,0 +1,19 @@
+country_event = {
+	id = 600001
+	trigger = {
+		PRV = { exists = no }
+		owns = 744
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "Remove Provence Cores"
+	desc = "Provence doesn't exist anymore so their claim over Etruria is null and void."
+	immediate = {
+		TUS_744 = { remove_core = PRV }
+	}
+	option = {
+		name = "I hate the Valois"		
+		}
+	}
+

@@ -1,0 +1,70 @@
+political_decisions = {
+	core_korea = {
+		potential = {
+			tag = JAP
+			NOT = {has_country_flag = core_korea}
+		}
+		allow = {
+			state_n_government = 1
+			KOR = {all_core = {owned_by = THIS}}
+		}
+		effect = {
+			KOR = {all_core = {add_core = THIS}}
+			set_country_flag = core_korea
+		}
+	}
+
+	man_in_the_castle = {
+		picture = high_castle
+		potential = {
+			tag = JAP
+			AIN = { all_core = { owned_by = THIS } }
+			NOT ={ has_country_flag = high_castle }
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			USA_78 = { owned_by = THIS }
+			ENG_13 = { owned_by = THIS }
+		}
+	
+		effect = {
+			prestige = 10
+			set_country_flag = high_castle
+			badboy = 12
+			USA_78 = { add_core = JAP }
+			ENG_13 = { add_core = JAP }
+			MEX_85 = { add_core = JAP }
+			MEX_87 = { add_core = JAP }
+			USA_81 = { add_core = JAP }
+			 }
+		}
+
+	alaska_strait = {
+		picture = strikesouth
+		potential = {
+			tag = JAP
+			JAP = { all_core = { owned_by = THIS } }
+			AIN = { all_core = { owned_by = THIS } }	
+			has_country_flag = high_castle
+			NOT = { has_country_flag = amerikkka_connected }
+			has_global_flag = meme_amerikkka
+		}
+
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			USA_78 = { owned_by = JAP }
+			ENG_13 = { owned_by = JAP }
+			MEX_85 = { owned_by = JAP }
+			MEX_87 = { owned_by = JAP }
+			USA_81 = { owned_by = JAP }
+		}
+	
+		effect = {
+			set_country_flag = amerikkka_connected
+			enable_canal = 6
+			 }
+		}
+}

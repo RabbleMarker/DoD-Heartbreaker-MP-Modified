@@ -1,0 +1,382 @@
+political_decisions = {	
+	coming_home = {
+		picture = England_NAN
+		potential = {
+			tag = NAN
+			NOT = {has_country_flag = coming_home}
+		}
+		allow = {
+			OR = {
+				ENG_280 = {owned_by = THIS}
+				ENG_284 = {owned_by = THIS}
+				ENG_296  = {owned_by = THIS}
+				ENG_277 = {owned_by = THIS}
+				ENG_273 = {owned_by = THIS}
+				ENG_291 = {owned_by = THIS}
+				ENG_300  = {owned_by = THIS}
+			}
+		}
+		effect = {
+			set_country_flag = coming_home
+			change_tag = ENG
+			NAN = { all_core = { add_core = ENG} }
+			primary_culture = english 
+			add_accepted_culture = beornian
+			add_accepted_culture = anglois
+			add_accepted_culture = welsh
+		}
+	}
+	restablish_capital = {
+		picture = new_camelot
+		potential = {
+			tag = ENG
+			NOT = {has_country_flag = restablish_capital}
+		}
+		allow = {
+			ENG_300  = {owned_by = THIS}
+			set_country_flag = coming_home
+		}
+		effect = {
+			set_country_flag = restablish_capital
+			capital = 300
+			add_country_modifier = {
+				name = the_homestead_act 
+				duration = -1
+			}
+		}
+	}
+	English_north_ENL = { 
+		potential = { 
+			OR = { tag = NAN tag = ENG }
+			owns = 281 
+			owns = 277
+			owns = 284
+			NOT = { has_global_flag = North_ENL_renamed }
+		}
+		
+		allow = { 
+		NOT = { war = yes }
+		}
+		
+		effect = { 
+		277 = { change_province_name = "Liverpool" }
+		278 = { change_province_name = "Manchester" }
+		280 = { change_province_name = "Newcastle On Tyne" }
+		282 = { change_province_name = "Leeds" }
+		283 = { change_province_name = "Sheffield"}
+		285 = { change_province_name = "Chester" }
+		286 = { change_province_name = "Shrewesbury" }
+		288 = { change_province_name = "Nottingham" }
+		289 = { change_province_name = "Leicester" }
+		290 = { change_province_name = "Lincoln" }
+		304 = { change_province_name = "Isle of Man" }
+		set_global_flag = North_ENL_renamed
+		}
+	}
+	
+	English_north_DUA = { 
+		potential = { 
+			tag = DUA
+			owns = 281 
+			owns = 277
+			owns = 284
+			has_global_flag = North_ENL_renamed
+		}
+		
+		allow = { 
+		NOT = { war = yes }
+		}
+		
+		effect = { 
+		277 = { change_province_name = "Livreport" }
+		278 = { change_province_name = "Manchester" }
+		280 = { change_province_name = "Neufcheutel Sur Tyne" }
+		282 = { change_province_name = "Loinir" }
+		283 = { change_province_name = "Chef-des-Champs"}
+		285 = { change_province_name = "Cestre"}
+		286 = { change_province_name = "Amwythig" }
+		288 = { change_province_name = "Nottingville" }
+		289 = { change_province_name = "Leicestre" }
+		290 = { change_province_name = "Lindre" }
+		304 = { change_province_name = " le de Man" }
+		clr_global_flag = North_ENL_renamed
+		}
+	}
+	
+	English_south_ENL = { 
+		potential = { 
+			OR = { tag = NAN tag = ENG }
+			owns = 287 
+			owns = 303
+			owns = 293
+			NOT = { has_global_flag = South_ENL_renamed }
+		}
+		
+		allow = { 
+		NOT = { war = yes }
+		}
+		
+		effect = { 
+		287 = { change_province_name = "Salisbury" }
+		299 = { change_province_name = "Plymouth" }
+		300 = { change_province_name = "London" }
+		301 = { change_province_name = "Canterbury" }
+		302 = { change_province_name = "Brighton"}
+		set_global_flag = South_ENL_renamed
+		}
+	}
+	
+	English_south_DUA = { 
+		potential = { 
+			tag = DUA
+			owns = 287 
+			owns = 303
+			owns = 293
+			has_global_flag = South_ENL_renamed
+		}
+		
+		allow = { 
+		NOT = { war = yes }
+		}
+		
+		effect = { 
+		287 = { change_province_name = "Plymville" }
+		299 = { change_province_name = "Plymouth" }
+		300 = { change_province_name = "Londres" }
+		301 = { change_province_name = "Cantorbury" }
+		302 = { change_province_name = "Hantone"}
+		clr_global_flag = South_ENL_renamed
+		}
+	}
+
+	create_british_empire = {
+	picture = British_islands
+		potential = {
+			NOT = { has_global_flag = britemp }
+			tag = ENG
+		}	
+		allow = {
+			NOT = { war = yes }
+			NOT = { part_of_sphere = yes }
+			ENG = {
+				all_core = {
+						OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			SCO = {
+				all_core = {
+						OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			IRE = {
+				all_core = {
+						OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 30
+			random_owned = { limit = { owner = { tag = ENG } } owner = { capital = 300 } }
+			random_owned = { limit = { owner = { tag = IRE } } owner = { capital = 263 } }
+			random_owned = { limit = { owner = { tag = SCO } } owner = { capital = 269 } }
+			any_country = {
+				limit = {
+					OR = {
+						tag = ENG 
+						tag = SCO
+						tag = IRE
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = SCO
+				}
+				add_core = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = ENG
+				}
+				add_core = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = IRE
+				}
+				add_core = THIS
+			}
+
+			set_global_flag = britemp
+			ENG = { all_core = { remove_core = DUA } }
+			IRE = { all_core = { remove_core = DUA } }
+			SCO = { all_core = { remove_core = DUA } }
+			IRE = { all_core = { add_core = ENG } }
+			SCO = { all_core = { add_core = ENG } } 
+			add_accepted_culture = scottish
+			add_accepted_culture = irish
+			all_core = {
+				limit = {
+					OR = {
+						is_core = ENG
+						is_core = IRE
+					}
+					NOT = { life_rating = 34 }
+				}
+				life_rating = 3
+			}
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	  proclaim_britannia = {
+			picture = HBE
+			potential = {
+				tag = NAN
+			}
+		
+			allow = {
+				OR = { 
+					is_greater_power = yes 
+					state_n_government = 1
+				}
+				NOT = { war = yes }
+				ARG_2357 = { owned_by = THIS }
+				URU_2344 = { owned_by = THIS }
+				BRZ_2467 = { owned_by = THIS }
+			}
+		
+			effect = {
+				prestige = 25
+				badboy = 5
+				add_accepted_culture = afro_brazilian
+				add_country_modifier = {
+					name = the_homestead_act 
+						duration = -1
+				}
+				NAN = { all_core = { add_core = HBE } }
+				AMA = { all_core = { add_core = HBE } }
+				LOT = { all_core = { add_core = HBE } }
+				NAN = { all_core = { remove_core = NAN } }
+				any_pop = {
+					limit = {
+						is_primary_culture = yes
+					}
+					scaled_militancy = {
+						ideology = reactionary
+						factor = 3
+					} 
+					scaled_militancy = {
+						ideology = fascist
+						factor = 3
+					}    
+					scaled_militancy = {
+						ideology = conservative
+						factor = 1
+					} 
+					scaled_consciousness = {
+						ideology = reactionary
+						factor = 3
+					} 
+					scaled_consciousness = {
+						ideology = fascist
+						factor = 3
+					}    
+					scaled_consciousness = {
+						ideology = conservative
+						factor = 1
+					}
+					scaled_consciousness = {
+						ideology = liberal
+						factor = 1
+					}   
+					scaled_militancy = {
+						ideology = liberal
+						factor = 1
+						}
+					}
+				}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+	
+	camelot_renovation = { 
+	
+		picture = new_camelot
+	
+		potential = { 
+			NOT = { has_global_flag = camelot_NAN }
+			OR = { tag = NAN 
+			tag = HBE
+			tag = AZL }
+			owns = 2348 
+		}
+		
+		allow = { 
+			medicine = 1 
+			cheap_iron = 1 
+			romanticism = 1 
+		}
+		
+		effect = { 
+			prestige = 15 
+			set_global_flag = camelot_NAN
+			2348 = {
+				life_rating = 5
+			}
+		}
+	}
+	
+	beornian_cone = { 
+	
+		picture = NAN_Andes
+	
+		potential = { 
+			OR = { tag = NAN 
+			tag = HBE }
+			NOT = { has_country_flag = NAN_cone }
+		}
+		
+		allow = { 
+			state_n_government = 1
+		}
+		
+		effect = { 
+			set_country_flag = NAN_cone 
+			badboy = 12
+			CHL_2322 = { add_core = THIS add_core = NAN }
+			CHL_2327 = { add_core = THIS add_core = NAN }
+			ARG_2391 = { add_core = THIS }
+			CHL_2322 = { add_core = THIS }
+			ARG_2368 = { add_core = THIS }
+			relation = { who = INC value = -150 }
+		}
+	
+	}
+
+}

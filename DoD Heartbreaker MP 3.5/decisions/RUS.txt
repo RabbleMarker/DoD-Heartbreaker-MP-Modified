@@ -1,0 +1,279 @@
+political_decisions = {	
+	form_russia = {
+		picture = RUS_tsar
+		potential = {
+			OR = {
+				tag = MUS
+				tag = NOV
+			}
+		}
+		allow = {
+			state_n_government = 1
+				MUS = {
+						all_core = {
+							OR = {
+								owned_by = THIS
+								owner = {
+								  OR = {
+									in_sphere = THIS
+									vassal_of = THIS
+									}
+								}
+							}
+						} 
+					}
+				NOV = {
+						all_core = {
+							OR = {
+								owned_by = THIS
+								owner = {
+								  OR = {
+									in_sphere = THIS
+									vassal_of = THIS
+									}
+								}
+							}
+						} 
+					}
+		}
+		effect = {
+			any_country = {
+				limit = {
+					primary_culture = russian
+					  OR = {
+					   in_sphere = THIS
+					   vassal_of = THIS
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			MUS = { all_core = { add_core = RUS remove_core = MUS } }
+			NOV = { all_core = { add_core = RUS remove_core = NOV } }
+			change_tag = RUS
+		}
+	}
+	panslavic_focus = {
+		picture = crimea
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = panslavic_focus }
+			NOT = { has_country_flag = southern_focus }
+			NOT = { has_country_flag = baltic_focus }
+		}
+
+		allow = { }
+		
+		effect = { 
+			set_country_flag = panslavic_focus
+        		RUS_958 = {add_core = RUS}
+			RUS_962 = {add_core = RUS}
+			RUS_718 = {add_core = RUS}
+			RUS_948 = {add_core = RUS}
+			}
+		}
+
+	baltic_focus = {
+		picture = scandinavia
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = baltic_focus }
+			NOT = { has_country_flag = panslavic_focus }
+			NOT = { has_country_flag = southern_focus }
+		}
+
+		allow = { }
+		
+		effect = { 
+			set_country_flag = baltic_focus
+			plurality = 50
+        		EST = { add_core = RUS }
+        		LAT = { add_core = RUS }
+			FIN = { all_core = { add_core = RUS } }
+			}
+		}
+
+	southern_focus = {
+		picture = tatarstan
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = southern_focus }
+			NOT = { has_country_flag = panslavic_focus }
+			NOT = { has_country_flag = baltic_focus }
+		}
+
+		allow = { }
+		
+		effect = { 
+			set_country_flag = southern_focus
+        		CRI = { all_core = { add_core = THIS } }
+			ASK = { all_core = { add_core = THIS } }
+        		RUS_1090 = { add_core = RUS } #Georgia proper
+			}
+		}
+	
+#Next step: Moving the capital, once all relevant territory is reclaimed.
+	#St. Petersburg will be named after Mikhail I ("Mikhailgrad")
+	move_capital_to_nyenschantz = {
+		picture = move_capital_to_rostov
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+			NOT = { has_country_flag = RUS_moved_capital }
+		}
+
+		#Must control all of Estonia and Karelia
+		allow = {
+			RUS_339 = { owned_by = THIS }
+			RUS_349 = { owned_by = THIS }
+		}
+
+		effect = {
+			prestige = 10
+			capital = 994
+			994 = {
+				    life_rating = 2
+				    change_province_name = "Mikhailgrad" 
+				    add_province_modifier = {
+				    	name = gateway_to_russia
+						duration = 7300
+	 				}  	  
+			}
+			set_country_flag = RUS_moved_capital 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Rostov retains its name.
+	move_capital_to_rostov = {
+		picture = move_capital_to_rostov
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			NOT = { has_country_flag = RUS_moved_capital }
+		}
+
+		#Must control Crimea, Luhansk, and Rostov regions
+		allow = {
+			RUS_964 = { owned_by = THIS }
+			RUS_999 = { owned_by = THIS }
+			RUS_1048 = { owned_by = THIS }
+		}
+		effect = {
+			prestige = 10
+			capital = 979
+			979 = {
+				life_rating = 3
+				add_province_modifier = {
+					name = gateway_to_russia
+					duration = 7300
+				}      
+			}
+			set_country_flag = RUS_moved_capital 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Once you've moved the capital and picked up some tech, you can start accepting cultures.
+	#Steppe/Caucasus cultures
+	integrate_tatar_culture = {
+		picture = meddle_cossacks
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			NOT = { accepted_culture = tatar }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = tatar
+			add_accepted_culture = north_caucasian
+			add_accepted_culture = georgian
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	#Baltic cultures
+	integrate_northern_cultures = {
+		picture = baltics
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+			has_country_flag = RUS_moved_capital
+			NOT = { accepted_culture = estonian }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = estonian
+			add_accepted_culture = latvian
+			add_accepted_culture = finnish
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	push_west = {
+		picture = crimea
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = push_west }
+			has_country_flag = western_focus
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}	
+		effect = {
+			set_country_flag = push_west
+			add_accepted_culture = ukrainian
+		}
+	}
+
+	ukrop = {
+		picture = greater_ukraine
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = ukrop }
+			has_country_flag = western_focus
+			}
+		allow = { 
+			BYE = { all_core = { owned_by = THIS } }
+			UKR = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			set_country_flag = ukrop
+			prestige = 25
+			BYE = { all_core = { add_core = THIS} }
+			UKR = { all_core = { add_core = THIS} }
+		}
+	}
+	
+	
+	reclaim_eastern_colonies = {
+		picture = Tatarstan
+		potential = {
+			tag = RUS
+			NOT = {has_country_flag = eastern_colonies}
+			has_country_flag = southern_focus
+		}
+		allow = {
+		}
+		effect = {
+			badboy = 2
+			NOG = {all_core = {add_core = THIS}}
+			SIB = {all_core = {add_core = THIS}}
+			set_country_flag = eastern_colonies
+		}
+	}
+}

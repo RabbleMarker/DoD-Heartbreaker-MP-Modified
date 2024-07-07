@@ -1,0 +1,64 @@
+political_decisions = {	
+	form_china_claimant = { 
+     	 picture = form_china
+  		potential = {
+			OR = {
+				tag = MCK	
+				tag = TPG
+				tag = TNG
+				tag = MIG
+			}
+  			NOT = {
+				exists = CHI
+  			}
+  		}
+  		
+  		allow = { 
+        	civilized = yes
+  			NOT = { war = yes }
+  			CHI = {
+				all_core = {
+					OR = {
+  						owned_by = THIS
+  						owner = {
+  							in_sphere = THIS
+  						}
+						province_id = 1498
+						province_id = 1538
+						province_id = 1566
+						province_id = 1481
+						province_id = 1569
+						province_id = 1606
+						province_id = 1496
+						province_id = 2674
+  					}
+				}
+			}
+  		}
+  		effect = {
+  			prestige = 30
+  			change_tag = CHI  
+  			primary_culture = beifaren
+  			add_accepted_culture = manchu			
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			capital = 2221
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+}

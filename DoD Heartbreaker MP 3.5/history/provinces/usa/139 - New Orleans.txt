@@ -1,0 +1,68 @@
+owner = PLA
+controller = PLA 
+add_core = PLA
+is_slave = yes 
+trade_goods = grain
+life_rating = 40
+naval_base = 1
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = artillery_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = explosives_factory
+	upgrade = yes
+}
+1861.1.1 = {
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+	state_building = {
+		level = 1
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = explosives_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { 
+	railroad = 3 
+	naval_base = 1
+	fort = 1
+}
+

@@ -1,0 +1,40 @@
+political_decisions = {
+	cusco_capital = {
+		picture = constinople
+		potential = {
+			tag = INC
+			NOT = { capital = 2302 }
+		}
+		allow = {
+			war = no
+			INC = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			prestige = 20
+			capital = 2302
+			2302 = {
+				life_rating = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	incan_dominance = {	
+		picture = Incas
+		potential = {
+			tag = INC
+			NOT = {has_country_flag = incan_dominance}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			INC = {all_core = {owned_by = THIS}}
+		}
+		effect = {
+			GRA = {all_core = {add_core = INC}}
+			add_accepted_culture = granadan
+			set_country_flag = incan_dominance
+		}
+	}
+}

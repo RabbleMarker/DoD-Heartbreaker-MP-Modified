@@ -1,0 +1,40 @@
+country_event = {
+	
+	id = 125132
+	title = "EVTNAME125132"
+	desc = "EVTDESC125132"
+	picture = "Ottoman"
+	
+	fire_only_once = yes
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA125132"
+		
+		set_global_flag = janissaryrulez
+		prestige = -3
+
+		any_pop = { scaled_militancy = { factor = -5  ideology = reactionary } }
+		BUL = { all_core = { remove_core = THIS } }
+		WLL = { all_core = { remove_core = THIS } }
+		MAC = { all_core = { remove_core = THIS } }
+		ALB = { all_core = { remove_core = THIS } }
+		SER = { all_core = { remove_core = THIS } }
+		government = presidential_dictatorship
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+		add_country_modifier = { 
+		name = janissary_rule
+		duration = 1000
+		}
+		add_country_modifier = {
+		name = janissary_system 
+		duration = 10000
+		}
+	}
+}

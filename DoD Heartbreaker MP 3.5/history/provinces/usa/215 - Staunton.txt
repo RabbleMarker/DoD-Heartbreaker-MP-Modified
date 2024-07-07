@@ -1,0 +1,10 @@
+owner = NBG
+controller = NBG
+add_core = NBG
+add_core = PLA
+is_slave = yes 
+trade_goods = grain
+life_rating = 35
+1861.1.1 = {	owner = CSA	controller = CSA	add_core = CSA}
+1861.1.1 = { railroad = 3 }
+

@@ -1,0 +1,124 @@
+leader = {
+	name = "Louis Bréa"
+	type = land
+	date = 1836.1.1
+	personality = defence_4.1
+	background = attack_5.1
+}
+
+army = {
+	name = "Armée des Valois"
+	location = 470
+	regiment = {
+		name= "1e Brigade"
+		type = infantry
+		home = 467
+	}
+	regiment = {
+		name= "2e Brigade"
+		type = infantry
+		home = 467
+	}
+	regiment = {
+		name= "3e Brigade"
+		type = infantry
+		home = 467
+	}
+	regiment = {
+		name= "2e Brigade"
+		type = infantry
+		home = 470
+	}
+	regiment = {
+		name= "5e Brigade"
+		type = hussar
+		home = 470
+	}
+	regiment = { 
+		name= "Brigade d'Artillerie 1e"
+		type = artillery
+		home = 467
+	}
+	regiment = { 
+		name= "Brigade d'Artillerie 2e"
+		type = artillery
+		home = 469
+	}
+	regiment = { 
+		name= "Brigade d'Artillerie 3e"
+		type = artillery
+		home = 469
+	}
+	regiment = { 
+		name= "Brigade d'Artillerie 4e"
+		type = artillery
+		home = 470
+	}
+	regiment = { 
+		name= "Brigade d'Artillerie 5e"
+		type = artillery
+		home = 470
+	}
+}
+
+navy = {
+	name = "Escadre de Provence"
+	location = 470
+	
+	ship = {
+		name = "François Ier"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Pythéas"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Jean III"
+		type = frigate
+	}
+	
+	ship = {
+		name = "1ère Flotille de Transport"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name = "2e Flotille de Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "3e Flotille de Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "4e Flotille de Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "5e Flotille de Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "6e Flotille de Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "7e Flotille de Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "8e Flotille de Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "9e Flotille de Transport"
+		type = clipper_transport
+	}
+	ship = {
+		name = "10e Flotille de Transport"
+		type = clipper_transport
+	}
+}
