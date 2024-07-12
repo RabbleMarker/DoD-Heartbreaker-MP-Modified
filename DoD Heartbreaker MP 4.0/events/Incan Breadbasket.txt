@@ -1,0 +1,30 @@
+country_event = {
+
+	title = "Incan Breadbasket"
+	desc = "Instead of bothering with provinces events you just get your pop growth immediately."
+	id = 95599
+
+	trigger = {
+		tag = INC
+		NOT = {
+			has_country_flag = has_native_societies
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 0.01
+			year = 1836
+		}
+	}
+
+	option = {
+		name = "Long live the Incan Empire!"
+		set_country_flag = has_native_societies
+		add_country_modifier = {
+			name = incan_breadbasket
+			duration = -1
+		}
+	}
+}

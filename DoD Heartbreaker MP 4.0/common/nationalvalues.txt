@@ -1,0 +1,34 @@
+nv_order = {
+	org_regain = 0.05
+	leadership_modifier = 1
+	land_unit_start_experience = 5 #5
+	naval_unit_start_experience = 5
+	army_tech_research_bonus = 0.05
+}
+
+nv_equality = {
+	global_assimilation_rate = 0.5
+	non_accepted_pop_militancy_modifier = -0.02
+	culture_tech_research_bonus = 0.05
+}
+
+
+nv_productivity = {
+	factory_input = -0.05
+	factory_output = 0.15 #0.25
+	factory_throughput = 0.05
+	commerce_tech_research_bonus = 0.05
+	industry_tech_research_bonus = 0.05
+}
+
+nv_education = {
+	education_efficiency_modifier = 0.3
+	culture_tech_research_bonus = 0.05
+}
+
+nv_diplomacy = {
+	diplomatic_points_modifier = 2
+	influence_modifier = 0.5
+	badboy = -0.05
+	cb_generation_speed_modifier = 0.5
+}

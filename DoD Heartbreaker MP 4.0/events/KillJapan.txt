@@ -1,0 +1,34 @@
+country_event = {
+	id = 50399
+	title = "EVTNAME50399"
+	desc = "EVTDESC50399"
+	picture = "ambush_army"
+
+	major = yes
+	
+	trigger = {
+		tag = JAP
+		has_global_flag = killed_japan
+		NOT = { has_country_flag = jap_genocide }
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	option = {
+		name = "Japan has fallen, millions must die."
+		set_country_flag = jap_genocide
+		JAP = {
+			all_core = {
+				remove_core = JAP
+				life_rating = -15
+			}
+		}
+		any_owned_province = {
+			change_controller = THIS
+		}
+		FROM = { inherit = THIS }
+		}
+
+	}
