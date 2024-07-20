@@ -105,11 +105,13 @@ political_decisions = {
 		}
 		allow = {
 			state_n_government = 1
-			CAE = {all_core = {owned_by = THIS}}
+			CAE = { all_core = { owned_by = THIS} }
+			owns = 695
+			owns = 690
 		}
 		effect = {
 			set_country_flag = claim_prussia
-			PRU = {all_core = {add_core = THIS}}
+			PRU = { all_core = { add_core = THIS } }
 		}
 	}
 	integrate_rheinish_boh = {
@@ -235,6 +237,7 @@ political_decisions = {
 			RHI = { all_core = { add_core = HLR } }
 			PRU = { all_core = { add_core = HLR } }
 			HOL = { all_core = { add_core = HLR } }
+			FRA_412 = { add_core = HLR }
 			564 = {
 				life_rating = 5
 				add_province_modifier = {

@@ -1,0 +1,258 @@
+political_decisions = {
+	form_danubia = {
+		picture = frankfurt_parliament
+		potential = {
+			primary_culture = south_german
+			NOT = {
+				exists = SGF
+				exists = GER
+			}
+		}	
+		allow = {
+			NOT = { war = yes }
+			BAV = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			AUS = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			WUR = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			SWI = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			TIR = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+		    change_tag = SGF
+			primary_culture = south_german
+			add_accepted_culture = north_german
+			add_accepted_culture = rheinish 
+			prestige = 10
+			any_country = {
+				limit = {
+					primary_culture = south_german
+			          OR = {
+					   in_sphere = THIS
+					   vassal_of = THIS
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_country = {
+				limit = {
+					primary_culture = rheinish
+			          OR = {
+					   in_sphere = THIS
+					   vassal_of = THIS
+					}
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			#Austria
+			AUS = {
+				all_core = {
+					add_core = SGF
+				}
+			}
+			#Bavaria
+			BAV = {
+				all_core = {
+					add_core = SGF
+				}
+			}
+			#Wurtemberg
+			WUR = {
+				all_core = {
+					add_core = SGF
+				}
+			}
+			#Baden
+			BAD = {
+				all_core = {
+					add_core = SGF
+				}
+			}
+			#Swiss
+			SWI = {
+				all_core = {
+					add_core = SGF
+				}
+			}
+			TIR = {
+				all_core = {
+					add_core = SGF
+				}
+			}
+			change_tag = SGF
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	unite_germany_SGF = {
+		picture = Germania
+		potential = {
+			tag = SGF
+		}
+		allow = {
+			tag = SGF
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			SGF = { all_core = { owned_by = THIS } }
+			BEG = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			FRI = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			HES = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			FRM = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			NAS = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			HEK = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			MNR = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			LIP = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			OLD = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			BRE = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			HAN = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			BRA = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			THU = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			BRN = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			SAX = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			POM = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			AUS = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			BAV = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			TIR = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			WUR = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			BAD = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+			SWI = { all_core = { OR = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+		}	
+		effect = {
+			prestige = 20
+			change_tag = GER
+			add_accepted_culture = pomeranian
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+						tag = CAE
+						tag = HLR
+					}
+					is_culture_group = germanic
+					OR = {
+						in_sphere = THIS
+						overlord = {
+							tag = THIS
+						}
+					}
+				}
+				annex_to = THIS
+			}
+			AUS = { all_core = { add_core = GER remove_core = AUS } }
+			BAV = { all_core = { add_core = GER remove_core = BAV } }
+			TIR = { all_core = { add_core = GER remove_core = TIR } }
+			WUR = { all_core = { add_core = GER remove_core = WUR } }
+			BAD = { all_core = { add_core = GER remove_core = BAD } }
+			SWI = { all_core = { add_core = GER remove_core = SWI } }
+			BEG = { all_core = { add_core = GER remove_core = BEG } }
+			FRI = { all_core = { add_core = GER remove_core = FRI } }
+			HES = { all_core = { add_core = GER remove_core = HES } }
+			FRM = { all_core = { add_core = GER remove_core = FRM } }
+			NAS = { all_core = { add_core = GER remove_core = NAS } }
+			HEK = { all_core = { add_core = GER remove_core = HEK } }
+			MNR = { all_core = { add_core = GER remove_core = MNR } }
+			LIP = { all_core = { add_core = GER remove_core = LIP } }
+			OLD = { all_core = { add_core = GER remove_core = OLD } }
+			BRE = { all_core = { add_core = GER remove_core = BRE } }
+			HAN = { all_core = { add_core = GER remove_core = HAN } }
+			BRA = { all_core = { add_core = GER remove_core = BRA } }
+			THU = { all_core = { add_core = GER remove_core = THU } }
+			BRN = { all_core = { add_core = GER remove_core = BRN } }
+			SAX = { all_core = { add_core = GER remove_core = SAX } }
+			SGF = { all_core = { add_core = GER remove_core = SGF } }
+			POM = { all_core = { add_core = GER } }
+			RHI = { all_core = { add_core = GER } }
+			PRU = { all_core = { add_core = GER } }
+			HOL = { all_core = { add_core = GER } }
+			FRA_412 = { add_core = GER }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		the_ruhr_boom = {
+		potential = {
+			OR = {
+				tag = GER
+				tag = HLR
+				}
+			owns = 578
+			owns = 2561
+			owns = 575
+			NOT = {
+				has_global_flag = ruhr_boom_has_happened
+			}
+		}
+		
+		allow = {
+			market_structure = 1
+			organized_factories = 1
+			early_railroad = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = ruhr_boom
+				duration = 3650
+			}
+			set_global_flag = ruhr_boom_has_happened
+		}
+	}
+}

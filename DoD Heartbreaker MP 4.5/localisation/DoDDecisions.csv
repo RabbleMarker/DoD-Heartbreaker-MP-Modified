@@ -83,8 +83,8 @@ form_danubia_title;Form the Danubian Federation;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 form_danubia_desc;Through great diplomancy and war, we can now claim to be a Federation for all Germans.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 shining_liberty_clm_title;Becon for Immigrants;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 begin_german_unification_desc;The time to push North is upon us! Down with the Bohemians, the false rulers of Germania!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-unite_germany_title;Unite Germany;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-unite_germany_desc;Through all odds, we have done it. Germany is united under a German leader. Hail Germania!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.
+unite_germany_SGF_title;Unite Germany;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+unite_germany_SGF_desc;Through all odds, we have done it. Germany is united under a German leader. Hail Germania!\n\n§GYou'll need all the German minors sphered, exludes Alsace and Prussia, You need Rhineland, Pomerania, and Holstein as well.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.
 uniting_turania_title;Unification of the Steppe;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 uniting_turania_desc;The Steppes have seen the fall of many nomad empires: the Saka, the Xiongnu, the Mongols... All have faded and are now only remembered in history. But the Steppes need a leader to unite them into a single state, not a Khanate a relic of the past, and who will protect them from Imperialism, be it from Europe or Asia!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 reclaim_croats_title;Reclaim Croatia;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
