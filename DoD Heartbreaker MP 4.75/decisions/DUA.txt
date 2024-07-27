@@ -72,6 +72,8 @@ political_decisions = {
 			year = 1840
 		}
 		effect = {
+			add_accepted_culture = welsh
+			add_accepted_culture = breton
 			set_country_flag = dual_path
 			add_country_modifier = {
 				name = dm_assim_nerf
@@ -90,7 +92,7 @@ political_decisions = {
 		}
 	
 		allow = {
-			year = 1855
+			year = 1850
 		}
 			effect = {
 			set_country_flag = fra_occitan_accepted
@@ -220,7 +222,7 @@ political_decisions = {
 			NOT = { has_country_flag = dm_assim_nerf_removal }
 		}
 		allow = {
-			year = 1885
+			year = 1880
 		}
 		effect = {
 			set_country_flag = dm_assim_nerf_removal

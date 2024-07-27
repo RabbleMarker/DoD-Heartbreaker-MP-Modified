@@ -1538,7 +1538,7 @@
 2980;2276;sea;0;0;#Guyana Coast
 2981;2241;sea;0;0;#Coast of Amapa
 2981;2414;sea;0;0;#Coast of Amapa
-2982;2214;sea;0;0;#Amazonas Gulf
+#2982;2214;sea;0;0;#Amazonas Gulf
 2982;2215;sea;0;0;#Amazonas Gulf
 2982;2410;sea;0;0;#Amazonas Gulf
 2982;2424;sea;0;0;#Amazonas Gulf
@@ -1809,7 +1809,7 @@
 3288;3112;impassable;0;0;StLawrence to Lake Ontario
 3288;2943;impassable;0;0;StLawrence to Gulf of StLawrence
 3289;2961;impassable;0;0;Rio Grande to Galveston Bay
-3290;2982;impassable;0;0;Amazon to Amazonas Gulf
+#3290;2982;impassable;0;0;Amazon to Amazonas Gulf
 3291;2975;impassable;0;0;Orinoco to Winward Isles
 3292;2989;impassable;0;0;Uruguay to Rio De La Plata
 3293;2989;impassable;0;0;Paraguay River System to Rio De La Plata

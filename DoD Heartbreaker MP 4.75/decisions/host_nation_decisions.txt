@@ -100,6 +100,42 @@ political_decisions = {
 			factor = 0
 		}
 	}
+	show_meme_decisions = {
+		picture = troll
+		potential = {
+			NOT = { has_country_flag = showing_meme_decisions }
+			has_country_flag = host_nation
+		}
+	
+		allow = {
+			
+		}
+		
+		effect = {
+			set_country_flag = showing_meme_decisions
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	hide_meme_decisions = {
+		picture = troll
+		potential = {
+			has_country_flag = showing_meme_decisions
+			has_country_flag = host_nation
+		}
+	
+		allow = {
+			
+		}
+		
+		effect = {
+			clr_country_flag = showing_meme_decisions
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	ally_all_countries = {
 		picture = ally_yes
 		potential = {
@@ -508,7 +544,7 @@ political_decisions = {
 	meme_decision_alaska = {
 		picture = strikesouth
 		potential = {
-			has_country_flag = showing_host_decisions
+			has_country_flag = showing_meme_decisions
 			has_country_flag = host_nation
 			NOT = { has_global_flag = meme_amerikkka }
 		}
@@ -527,10 +563,9 @@ political_decisions = {
 	meme_decision_japan = {
 		picture = troll
 		potential = {
-			has_country_flag = showing_host_decisions
+			has_country_flag = showing_meme_decisions
 			has_country_flag = host_nation
 			NOT = { has_global_flag = killed_japan }
-			NOT = { year = 1837 }
 		}
 	
 		allow = {
@@ -548,10 +583,9 @@ political_decisions = {
 	meme_decision_turania = {
 		picture = turania
 		potential = {
-			has_country_flag = showing_host_decisions
+			has_country_flag = showing_meme_decisions
 			has_country_flag = host_nation
 			NOT = { has_global_flag = killed_turania }
-			NOT = { year = 1840 }
 		}
 	
 		allow = {
@@ -569,7 +603,7 @@ political_decisions = {
 	meme_decision_elb_scandi = {
 		picture = germania
 		potential = {
-			has_country_flag = showing_host_decisions
+			has_country_flag = showing_meme_decisions
 			has_country_flag = host_nation
 			NOT = { has_global_flag = meme_elb_scandi }
 		}
