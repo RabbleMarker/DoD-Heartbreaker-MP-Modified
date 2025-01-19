@@ -54,7 +54,7 @@ wright_n_langleys_aeroplanes = {
 tractors = {
 	limit = { combustion_engine = 1 }
 	chance = {
-		base = 3
+		base = 100
 		modifier = {
 			factor = 2
 			average_consciousness = 2
@@ -348,7 +348,7 @@ precision_work = {
 machine_tools = {
 	limit = { interchangeable_parts = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			invention = precision_work
@@ -1112,7 +1112,7 @@ artificial_fertilizers = {
 nitroglycerin = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			military_statistics = 1
@@ -1323,7 +1323,7 @@ bell_n_greys_telephones = {
 electrical_lighting = {
 	limit = { electricity = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			invention = edison_light_bulb
