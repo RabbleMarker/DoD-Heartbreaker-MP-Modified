@@ -229,7 +229,7 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			NOT = { has_country_flag = push_west }
-			has_country_flag = western_focus
+			has_country_flag = panslavic_focus
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
