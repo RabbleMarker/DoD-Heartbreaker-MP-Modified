@@ -81,11 +81,11 @@
 1310;1322;sea;2794;0;Palk Strait #Ceylon-S India
 1384;1402;sea;2814;0;Straits of Johore
 1385;1402;sea;2814;0;Straits of Johore
-1403;1413;sea;2805;0;Sunda Strait
+#1403;1413;sea;2805;0;Sunda Strait#removed
 1412;1851;sea;2782;0;Aden Strait
 1412;1875;sea;2782;0;Aden Strait
 1418;1421;sea;2811;0;Strait of Madura
-#1420;1438;sea;2811;0;Bali Strait#removed
+1420;1438;sea;2811;0;Bali Strait
 1438;1442;sea;2811;0;Lombok Strait
 1442;1440;sea;2811;0;Sumbawa Strait
 1411;1408;sea;2803;0;Gunungsitoli Strait
@@ -110,7 +110,7 @@
 1447;1449;sea;2852;0;ternate-ambon strait
 1449;1450;sea;2853;0;ambon-ceram strait
 1256;1257;sea;2796;0;ganges delta crossing
-1435;1425;sea;2812;0;palu-tarakan strait
+#1435;1425;sea;2812;0;palu-tarakan strait#removed
 1439;1444;sea;2809;0;flores-alor strait
 1440;1439;sea;2810;0;sumbawa-flores strait
 1440;1441;sea;2808;0;sumbawa-sumba strait
