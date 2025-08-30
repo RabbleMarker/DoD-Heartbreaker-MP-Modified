@@ -121,43 +121,6 @@ country_event = {
 #	}
 #}
 
-country_event = {
-	id = 776411
-	title = "776405"
-	desc = "EVTDESC776405"
-	picture = "xinhai"
-	
-	trigger = {
-		tag = GHO
-		NOT = { has_country_flag = japanese_economic_compensation }
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		name = "EVTOPTA776405"
-		set_country_flag = japanese_economic_compensation
-		any_country = {	
-			any_owned = {
-				limit = {
-					OR = {
-						has_pop_culture = japanese
-						has_pop_culture = korean
-					}
-				}
-				any_pop = {
-						reduce_pop = .8
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = "Thanks!"
-	}
-}
 
 
 #country_event = {
