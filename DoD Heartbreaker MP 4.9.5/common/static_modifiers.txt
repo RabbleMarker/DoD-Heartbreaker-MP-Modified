@@ -143,13 +143,13 @@ base_values = {
 
 war = {
 	max_war_exhaustion = 100			#base max at war.
-	badboy = -0.1
+	badboy = -0.15
 }
 
 peace = {
 	max_war_exhaustion = 50			#base max at peace.
 	war_exhaustion = -0.75
-	badboy = -0.1
+	badboy = -0.15
 	mobilisation_economy_impact = 2.0
 }
 
