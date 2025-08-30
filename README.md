@@ -1,3 +1,16 @@
+Fork of GODOGs DOD mod with campaign specific edits, including but not limited to:
+
+Removing Bohemias starting sphere on PLC
+Giving military professionalism to Russia
+Conversion of Qingqiu accepteds in Java, Borneo & Sumatra (Qingqiu nerf)
+Giving Vietnam some reforms (RP from conquest)
+
+
+
+
+**Original Description:**
+
+
 Based off of ShortHills IGoRDoD: https://github.com/TheShortHills/IGoRDoD which has the destinction of being the first person who realized that trying to remove the rot of HPM from DoD is a futile task. Instead he just build off of IGOR-PUIR
 
 This mod attempts to capture the feel of a more proper DoD though: added back many countries and paths missing from IGoRDoD and adjusted borders to be closer to your run of the mill DoD.
