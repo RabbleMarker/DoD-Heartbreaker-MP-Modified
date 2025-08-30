@@ -79,7 +79,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 1050
+        size = 50000
     }
 
     farmers = {
