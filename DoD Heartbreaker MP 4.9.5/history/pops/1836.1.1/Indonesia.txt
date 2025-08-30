@@ -3337,7 +3337,7 @@
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 144400
     }
@@ -3385,127 +3385,127 @@
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 71
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 47
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 3087
     }
 
     soldiers = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 95
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 5344
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = malay
         religion = sunni
         size = 125
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = malay
         religion = sunni
         size = 125
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = malay
         religion = sunni
         size = 450
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 7600
     }
 
     soldiers = {
-        culture = qingqiuan
+        culture = malay
         religion = sunni
         size = 125
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = malay
         religion = sunni
         size = 11425
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = malay
         religion = animist
         size = 8
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = malay
         religion = animist
         size = 5
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = malay
         religion = animist
         size = 38
     }
 
     soldiers = {
-        culture = qingqiuan
+        culture = malay
         religion = animist
         size = 10
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = malay
         religion = animist
         size = 890
     }
 
     aristocrats = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 4
     }
 
     clergymen = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 3
     }
 
     artisans = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 163
     }
 
     soldiers = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 5
     }
 
     farmers = {
-        culture = qingqiuan
+        culture = malay
         religion = mahayana
         size = 281
     }
