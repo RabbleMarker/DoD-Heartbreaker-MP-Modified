@@ -373,6 +373,15 @@ own_panama_canal = {
 	prestige = 0.02
 }
 
+unciv_rp_nerf = {
+    trigger = {
+        civilized = no
+        NOT = { civilized = yes }
+    }
+    research_points_on_conquer = -0.10
+    icon = 10
+}
+
 DVG_badboy_1 = { 
 	trigger = {
 		NOT = { year = 1850 }
