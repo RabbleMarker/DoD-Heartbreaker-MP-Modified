@@ -300,15 +300,6 @@ player_unciv_mobilization = {
 	icon = 9
 }
 
-unciv_rp_nerf = {
-	trigger = {
-		civilized = no
-		NOT = { civilized = yes }
-	}
-	research_points_on_conquer = -0.20
-	icon = 10
-}
-
 vassal_nation = {
 	trigger = {
 		exists = yes
@@ -387,7 +378,7 @@ DVG_badboy_1 = {
 		NOT = { year = 1850 }
 		is_greater_power = yes 
 	}
-	badboy = -0.15
+	badboy = -0.10
 	icon = 1
 
 }
@@ -397,7 +388,7 @@ DVG_badboy_2 = {
 		NOT = { year = 1850 }
 		is_greater_power = no
 	}
-	badboy = -0.10
+	badboy = -0.15
 	icon = 1
 
 }
@@ -409,7 +400,7 @@ DVG_badboy_3 = {
 		is_secondary_power = no
 		civilized = no
 	}
-	badboy = -0.15
+	badboy = -0.10
 	icon = 1
 
 }
