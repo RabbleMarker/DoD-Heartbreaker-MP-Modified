@@ -1,9 +1,9 @@
 Fork of GODOGs DOD mod with campaign specific edits, including but not limited to:
 
-Removing Bohemias starting sphere on PLC
-Giving military professionalism to Russia
-Conversion of Qingqiu accepteds in Java, Borneo & Sumatra (Qingqiu nerf)
-Giving Vietnam some reforms (RP from conquest)
+* Removing Bohemias starting sphere on PLC
+* Giving military professionalism to Russia
+* Conversion of Qingqiu accepteds in Java, Borneo & Sumatra (Qingqiu nerf)
+* Giving Vietnam some reforms (RP from conquest)
 
 
 
