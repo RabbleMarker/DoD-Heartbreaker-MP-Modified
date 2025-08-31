@@ -378,7 +378,7 @@ unciv_rp_nerf = {
         civilized = no
         NOT = { civilized = yes }
     }
-    research_points_on_conquer = -0.10
+    research_points_on_conquer = -0.19
     icon = 10
 }
 
