@@ -271,6 +271,7 @@ political_decisions = {
 			}
 		
 			effect = {
+		    	change_tag = HBE
 				prestige = 25
 				badboy = 5
 				add_accepted_culture = afro_brazilian
@@ -369,8 +370,8 @@ political_decisions = {
 		effect = { 
 			set_country_flag = NAN_cone 
 			badboy = 12
-			CHL_2322 = { add_core = THIS add_core = NAN }
-			CHL_2327 = { add_core = THIS add_core = NAN }
+			CHL_2322 = { add_core = THIS }
+			CHL_2327 = { add_core = THIS }
 			ARG_2391 = { add_core = THIS }
 			CHL_2322 = { add_core = THIS }
 			ARG_2368 = { add_core = THIS }
