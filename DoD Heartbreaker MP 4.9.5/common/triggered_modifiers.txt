@@ -397,7 +397,7 @@ DVG_badboy_2 = {
 		NOT = { year = 1850 }
 		is_greater_power = no
 	}
-	badboy = -0.15
+	badboy = -0.10
 	icon = 1
 
 }

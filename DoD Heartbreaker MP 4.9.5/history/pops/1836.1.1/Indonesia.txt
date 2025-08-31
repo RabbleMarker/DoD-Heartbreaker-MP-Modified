@@ -2569,7 +2569,7 @@
     }
 
     farmers = {
-        culture = malaya
+        culture = malay
         religion = mahayana
         size = 921
     }
