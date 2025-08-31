@@ -1,9 +1,11 @@
-Fork of GODOGs DOD mod with campaign specific edits, including but not limited to:
+Fork of GODOGs DOD mod with some campaign specific edits:
 
-* Removing Bohemias starting sphere on PLC
-* Giving military professionalism to Russia
-* Conversion of Qingqiu accepteds in Java, Borneo & Sumatra (Qingqiu nerf)
-* Giving Vietnam some reforms (RP from conquest)
+* Adjusted the Muscovy-PLC 1v1: Removed Bohemias sphere on PLC, gave Muscovy army professionalism and more soldier pops at start
+* Converted Qingqius accepted pops in Indonesia to indonesian (Qingqiu nerf)
+* Removed the Java-Sumatra and Malacca strait crossings (nerf to any aspiring Indochinese/Oceanian naval power)
+* Fixed Beornias HBE formable (did not tag switch over properly)
+* Added .05 infamy reduction base, removed .05 infamy reduction from "Lack of international code". This is a net zero change in infamy reduction before 1850, and a substantial buff after 1850
+* Adjusted the unciv RP from conquest malus from -0.2 to -0.19. This effectively means they need 3 reforms instead of 4 before they can start westernizing through conquest
 
 
 
