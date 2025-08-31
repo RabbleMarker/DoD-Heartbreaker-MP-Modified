@@ -4,7 +4,6 @@ Fork of GODOGs DOD mod with some campaign specific edits:
 * Converted Qingqius accepted pops in Indonesia to indonesian (Qingqiu nerf)
 * Removed the Java-Sumatra and Malacca strait crossings (nerf to any aspiring Indochinese/Oceanian naval power
 * Exempted Japan from the asian genocide (gaining 1.5m pops)
-* Removed the Mainland Japan-Sakhalin crossing (to compensate for above)
 * Fixed Beornias HBE formable (did not tag switch over properly)
 * Added .05 infamy reduction base, removed .05 infamy reduction from "Lack of international code". This is a net zero change in infamy reduction before 1850, and a substantial buff after 1850
 * Adjusted the unciv RP from conquest malus from -0.2 to -0.19. This effectively means they need 3 reforms instead of 4 before they can start westernizing through conquest
