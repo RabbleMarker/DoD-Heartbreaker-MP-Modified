@@ -1,6 +1,6 @@
 Fork of GODOGs DOD mod with some campaign specific edits:
 
-* Adjusted the Muscovy-PLC balance of power: Removed Bohemias sphere on PLC, gave Muscovy army professionalism and more soldier pops at start
+* Adjusted the Muscovy-PLC balance of power: Removed Bohemias sphere on PLC, gave Muscovy army professionalism and more soldier pops at start (16 additional professionals)
 * Converted Qingqius accepted pops in Indonesia to indonesian (Qingqiu nerf)
 * Removed the Java-Sumatra and Malacca strait crossings (nerf to any aspiring Indochinese/Oceanian naval power)
 * Fixed Beornias HBE formable (did not tag switch over properly)

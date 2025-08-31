@@ -35,7 +35,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 3100
+        size = 2900
     }
 
     farmers = {
@@ -79,7 +79,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 6150
+        size = 5950
     }
 
     farmers = {
@@ -123,7 +123,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 5150
+        size = 2950
     }
 
     farmers = {
@@ -203,7 +203,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 4150
+        size = 2950
     }
 
     farmers = {
@@ -279,7 +279,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 5250
+        size = 5950
     }
 
     farmers = {
@@ -311,7 +311,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 5150
+        size = 2950
     }
 
     farmers = {
@@ -343,7 +343,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 5900
+        size = 2900
     }
 
     farmers = {
@@ -423,13 +423,13 @@
     artisans = {
         culture = russian
         religion = orthodox
-        size = 10000
+        size = 8800
     }
 
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 6150
+        size = 4650
     }
 
     farmers = {
@@ -2385,7 +2385,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 4200
+        size = 2900
     }
 
     farmers = {
@@ -2491,7 +2491,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 3100
+        size = 5900
     }
 
     farmers = {
@@ -2861,7 +2861,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 10000
+        size = 11000
     }
 
     farmers = {
@@ -2905,7 +2905,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 4450
+        size = 5950
     }
 
     farmers = {
@@ -2943,7 +2943,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 4200
+        size = 8800
     }
 
     farmers = {
@@ -2987,7 +2987,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 4000
+        size = 8800
     }
 
     farmers = {
@@ -3025,7 +3025,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 6100
+        size = 8800
     }
 
     farmers = {
@@ -3057,7 +3057,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 3350
+        size = 5850
     }
 
     farmers = {
@@ -3115,7 +3115,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 5675
+        size = 2975
     }
 
     farmers = {
@@ -3171,7 +3171,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 5350
+        size = 5875
     }
 
     farmers = {
@@ -3190,12 +3190,6 @@
         culture = tatar
         religion = sunni
         size = 150
-    }
-
-    soldiers = {
-        culture = tatar
-        religion = sunni
-        size = 25
     }
 
     farmers = {
@@ -3227,7 +3221,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 4350
+        size = 2950
     }
 
     farmers = {
@@ -3329,7 +3323,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 6100
+        size = 8925
     }
 
     farmers = {
@@ -3348,12 +3342,6 @@
         culture = tatar
         religion = sunni
         size = 150
-    }
-
-    soldiers = {
-        culture = tatar
-        religion = sunni
-        size = 25
     }
 
     farmers = {
@@ -3907,7 +3895,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 3775
+        size = 2875
     }
 
     farmers = {
@@ -3932,12 +3920,6 @@
         culture = tatar
         religion = sunni
         size = 400
-    }
-
-    soldiers = {
-        culture = tatar
-        religion = sunni
-        size = 100
     }
 
     farmers = {
@@ -4115,7 +4097,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 4350
+        size = 2950
     }
 
     farmers = {
@@ -4295,7 +4277,7 @@
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 4425
+        size = 5925
     }
 
     farmers = {
