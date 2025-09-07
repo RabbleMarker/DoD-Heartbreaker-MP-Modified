@@ -1,13 +1,19 @@
 Fork of GODOGs DOD mod with some campaign specific edits:
 
-* Adjusted the Muscovy-PLC balance of power: Removed Bohemias sphere on PLC, gave Muscovy army professionalism and slightly more soldier pops at start (6 brigades worth)
-* Converted Qingqius accepted pops in Indonesia to indonesian (Qingqiu nerf)
+* Adjusted the Muscovy-PLC balance of power: Removed Bohemias sphere on PLC, gave Muscovy military plans to even out the numbers disparity
+* Fixed and buffed Russias northern path: Cores should be added properly now, gives Lithuanian accepted as a bonus
+* Massively Buffed Beornia with pops (+40%) and +2 life rating across the board
+* Fixed Beornias HBE formable (did not tag switch over properly) and Eng typo (set_country_flag instead of has_country_flag)
+* Buffed HBE with Lotharingian accepted
+* Gave Lotharingia military plans to help with their numbers disatvantage
+* Nerfed Xifangs accepted pops in Indonesia (converted them to indonesian)
+* Buffed Xifangs Qingqiu path with a Lusitanian baby boom and south american migration
 * Removed the Java-Sumatra and Malacca strait crossings (nerf to any aspiring Indochinese/Oceanian naval power
 * Exempted Japan from the asian genocide (gaining 1.5m pops)
-* Fixed Beornias HBE formable (did not tag switch over properly)
 * Added .05 infamy reduction base, removed .05 infamy reduction from "Lack of international code". This is a net zero change in infamy reduction before 1850, and a substantial buff after 1850
 * Adjusted the unciv RP from conquest malus from -0.2 to -0.19. This effectively means they need 3 reforms instead of 4 before they can start westernizing through conquest
-
+* Nerfed RP from conquest for the main Chinese nations (Taiping, Qing) to -0.1. Combined with the above leads to them needing 2 extra reforms (or one more than base)
+* Nerfed Chinese RP gain by 40%, which gets when they form China or civilize. Gave a 20K RP reward for forming China to compensate + incentivise
 
 
 **Original Description:**
