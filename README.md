@@ -2,6 +2,7 @@ Fork of GODOGs DOD mod with some campaign specific edits:
 
 * Adjusted the Muscovy-PLC balance of power: Removed Bohemias sphere on PLC, gave Muscovy military plans to even out the numbers disparity
 * Fixed and buffed Russias northern path: Cores should be added properly now, gives Lithuanian accepted as a bonus
+* Removed Danubias Elbian accepted, they get it back when forming Germany. This makes it so they only conflict over the Rhenisch pops with Elbians, if they so choose
 * Massively Buffed Beornia with pops (+40%) and +2 life rating across the board
 * Fixed Beornias HBE formable (did not tag switch over properly) and Eng typo (set_country_flag instead of has_country_flag)
 * Buffed HBE with Lotharingian accepted
