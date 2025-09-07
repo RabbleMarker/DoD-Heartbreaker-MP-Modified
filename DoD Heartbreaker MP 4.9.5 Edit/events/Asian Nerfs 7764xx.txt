@@ -18,7 +18,7 @@ country_event = {
 	immediate = {
 		name = "EVTOPTA776405"
 		set_country_flag = chinese_economic_compensation
-		any_country = {	
+		any_country = {
 			any_owned = {
 				limit = {
 					is_core = CHI
@@ -36,6 +36,42 @@ country_event = {
 				any_pop = {
 						reduce_pop = 0.30
 				}
+			}	
+		}
+	}
+	
+	option = {
+		name = "Thanks!"
+	}
+}
+
+country_event = {
+	id = 776411
+	title = "776405"
+	desc = "EVTDESC776405"
+	picture = "xinhai"
+	
+	trigger = {
+		tag = GHO
+		NOT = { has_country_flag = beornian_economic_miracle }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		name = "EVTOPTA776405"
+		set_country_flag = beornian_economic_miracle
+		any_country = {
+			any_owned = {
+				limit = {
+					is_core = NAN
+				}
+				any_pop = {
+						reduce_pop = 1.4
+				}
+				life_rating = 2
 			}	
 		}
 	}
