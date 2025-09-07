@@ -99,4 +99,34 @@ political_decisions = {
 			}
 		}
 	}
+
+	dng_manifest_destiny_2 = { # Qingqiu
+		picture = lusitania
+		potential = {
+			tag = DNG
+			NOT = { has_country_flag = dng_manifest_destiny_2 }
+			has_country_flag = qingqiu_dng
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			LST = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			}
+		effect = {
+			set_country_flag = dng_manifest_destiny_2
+			set_country_flag = south_american_immigrant_nation
+			all_core = {
+				limit = {
+					is_core = LST
+				}
+				add_province_modifier = {
+					name = baby_boom
+					duration = 1825
+				}
+			}
+		}
+	}
 }
