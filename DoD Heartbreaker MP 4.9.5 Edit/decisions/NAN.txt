@@ -34,7 +34,7 @@ political_decisions = {
 		}
 		allow = {
 			ENG_300  = {owned_by = THIS}
-			set_country_flag = coming_home
+			has_country_flag = coming_home
 		}
 		effect = {
 			set_country_flag = restablish_capital
