@@ -89,8 +89,8 @@ political_decisions = {
 		effect = { 
 			set_country_flag = baltic_focus
 			plurality = 50
-        		EST = { add_core = RUS }
-        		LAT = { add_core = RUS }
+			EST = { all_core = { add_core = RUS } }
+			LAT = { all_core = { add_core = RUS } }
 			FIN = { all_core = { add_core = RUS } }
 			}
 		}
@@ -216,6 +216,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 5
+            add_accepted_culture = lithuanian
 			add_accepted_culture = estonian
 			add_accepted_culture = latvian
 			add_accepted_culture = finnish
