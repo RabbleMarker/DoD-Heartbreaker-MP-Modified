@@ -195,7 +195,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = CHI
+        OR = {
+		tag = MCK
+		tag = TPG
+        }
 	}
 	
 	mean_time_to_happen = {
@@ -206,6 +209,10 @@ country_event = {
 		name = "Alright, sounds good."
 		add_country_modifier = {
 			name = china_rp_nerf
+			duration = -1
+		}
+		add_country_modifier = {
+			name = china_rp_nerf_2
 			duration = -1
 		}
 		ai_chance = {
@@ -223,7 +230,11 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+        OR = {
+		tag = MCK
+		tag = TPG
 		tag = CHI
+        }
 		civilized = yes
 	}
 	
@@ -234,6 +245,7 @@ country_event = {
 	option = {
 		name = "Alright, sounds good."
 		remove_country_modifier = china_rp_nerf
+		remove_country_modifier = china_rp_nerf_2
 		ai_chance = {
 			factor = 1.0
 		}

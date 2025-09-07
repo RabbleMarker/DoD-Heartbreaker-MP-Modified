@@ -37,7 +37,8 @@ political_decisions = {
   		}
   		effect = {
   			prestige = 30
-  			change_tag = CHI  
+  			change_tag = CHI
+  			research_points = 20000
   			primary_culture = beifaren
   			add_accepted_culture = manchu			
 			any_country = {
