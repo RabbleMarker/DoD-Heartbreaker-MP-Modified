@@ -275,6 +275,7 @@ political_decisions = {
 				prestige = 25
 				badboy = 5
 				add_accepted_culture = afro_brazilian
+				add_accepted_culture = lotharian
 				add_country_modifier = {
 					name = the_homestead_act 
 						duration = -1
