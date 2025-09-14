@@ -53,7 +53,7 @@
     soldiers = {
         culture = niger_congo_a
         religion = protestant
-        size = 1550
+        size = 8550
     }
 
     farmers = {

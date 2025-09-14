@@ -579,15 +579,9 @@
 	}
 
 	soldiers = {
-		culture = anglois
-		religion = catholic
-		size = 3000
-	}
-
-	soldiers = {
 		culture = welsh
 		religion = catholic
-		size = 1500
+		size = 2500
 	}
 	
 	labourers = {
@@ -804,17 +798,11 @@
 		religion = protestant
 		size = 22500
 	}
-
-	soldiers = {
-		culture = english
-		religion = catholic
-		size = 6000
-	}
 	
 	soldiers = {
 		culture = english
 		religion = protestant
-		size = 1500
+		size = 2500
 	}
 	
 	labourers = {
@@ -1068,14 +1056,8 @@
 	
 	soldiers = {
 		culture = english
-		religion = catholic
-		size = 6000
-	}
-	
-	soldiers = {
-		culture = english
 		religion = protestant
-		size = 1500
+		size = 2500
 	}
 	
 	labourers = {
@@ -1263,17 +1245,11 @@
 		religion = catholic
 		size = 2000
 	}
-
-	soldiers = {
-		culture = english
-		religion = catholic
-		size = 6000
-	}
 	
 	soldiers = {
 		culture = english
 		religion = protestant
-		size = 1500
+		size = 2500
 	}
 	
 	labourers = {
@@ -1537,10 +1513,9 @@
 	}
 
 	soldiers = {
-		culture = english
+		culture = anglois
 		religion = catholic
-		size= 1100
-
+		size = 2900
 	}
 
 	labourers = {
@@ -1596,15 +1571,9 @@
 	}
 
 	soldiers = {
-		culture = english
-		religion = catholic
-		size = 3000
-	}
-
-	soldiers = {
 		culture = anglois
 		religion = catholic
-		size = 3000
+		size = 2900
 	}
 	
 	labourers = {
@@ -1729,6 +1698,12 @@
 		size = 1500
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 2900
+	}
+
 	artisans = {
 		culture = anglois
 		religion = catholic
@@ -1759,6 +1734,12 @@
 		culture = english
 		religion = catholic
 		size = 4000
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 2900
 	}
 
 	labourers = {
@@ -1833,13 +1814,7 @@
 	soldiers = {
 		culture = anglois
 		religion = catholic
-		size = 3000
-	}
-
-	soldiers = {
-		culture = english
-		religion = catholic
-		size = 3000
+		size = 2900
 	}
 	
 	labourers = {
@@ -1892,6 +1867,12 @@
 		size = 12000
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 2900
+	}
+
 	labourers = {
 		culture = anglois
 		religion = catholic
@@ -1934,6 +1915,12 @@
 		culture = anglois
 		religion = catholic
 		size = 12000
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 2900
 	}
 
 	labourers = {
@@ -2102,24 +2089,6 @@
 		size = 3000
 	}
 
-	soldiers = {
-		culture = anglois
-		religion = catholic
-		size = 3000
-	}
-
-	soldiers = {
-		culture = anglois
-		religion = catholic
-		size = 3000
-	}
-	
-	soldiers = {
-		culture = anglois
-		religion = catholic
-		size = 3000
-	}
-	
 	soldiers = {
 		culture = anglois
 		religion = catholic

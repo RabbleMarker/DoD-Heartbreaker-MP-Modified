@@ -570,8 +570,8 @@
 
     soldiers = {
         culture = czech
-        religion = protestant
-        size = 918
+        religion = catholic
+        size = 5900
     }
 
     farmers = {
@@ -592,12 +592,6 @@
         size = 231
     }
 
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 36
-    }
-
     farmers = {
         culture = czech
         religion = catholic
@@ -616,12 +610,6 @@
         size = 288
     }
 
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 36
-    }
-
     farmers = {
         culture = czech
         religion = catholic
@@ -638,12 +626,6 @@
         culture = czech
         religion = catholic
         size = 57
-    }
-
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 6
     }
 
     farmers = {
@@ -726,12 +708,6 @@
         size = 1224
     }
 
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 844
-    }
-
     farmers = {
         culture = czech
         religion = catholic
@@ -753,7 +729,7 @@
     soldiers = {
         culture = czech
         religion = jewish
-        size = 17
+        size = 2900
     }
 
     farmers = {
@@ -783,7 +759,7 @@
     soldiers = {
         culture = czech
         religion = catholic
-        size = 1726
+        size = 5900
     }
 
     farmers = {
@@ -802,12 +778,6 @@
         culture = czech
         religion = catholic
         size = 231
-    }
-
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 17
     }
 
     farmers = {
@@ -866,12 +836,6 @@
         size = 577
     }
 
-    soldiers = {
-        culture = czech
-        religion = protestant
-        size = 74
-    }
-
     farmers = {
         culture = czech
         religion = protestant
@@ -888,12 +852,6 @@
         culture = czech
         religion = catholic
         size = 1270
-    }
-
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 975
     }
 
     farmers = {
@@ -923,7 +881,7 @@
     soldiers = {
         culture = czech
         religion = catholic
-        size = 1501
+        size = 5900
     }
 
     farmers = {
@@ -948,12 +906,6 @@
         culture = czech
         religion = catholic
         size = 244
-    }
-
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 74
     }
 
     farmers = {
@@ -1016,7 +968,7 @@
     soldiers = {
         culture = czech
         religion = catholic
-        size = 577
+        size = 5900
     }
 
     farmers = {
@@ -1035,12 +987,6 @@
         culture = czech
         religion = catholic
         size = 288
-    }
-
-    soldiers = {
-        culture = czech
-        religion = catholic
-        size = 28
     }
 
     farmers = {
