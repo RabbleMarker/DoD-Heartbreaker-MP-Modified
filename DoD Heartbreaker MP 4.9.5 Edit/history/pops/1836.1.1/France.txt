@@ -2116,6 +2116,13 @@
 		size = 850
 	}
 
+	soldiers = {
+		culture = french
+		religion = catholic
+		size= 2900
+
+	}
+
 	artisans = {
 		culture = french
 		religion = catholic
