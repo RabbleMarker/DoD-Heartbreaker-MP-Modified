@@ -83,6 +83,233 @@ political_decisions = {
 		}
 	}
 
+	evacuate_paris_bordeaux = {
+		picture = british_propaganda
+		potential = {
+			tag = DUA
+			OR = {
+				has_country_flag = french_path
+				has_country_flag = dual_path
+			}
+			NOT = {has_country_flag = evacuate_paris}
+		}
+		allow = {
+			DUA = { NOT = { all_core = {owned_by = THIS} } }
+		}
+		effect = {
+			prestige = 50
+			capital = 458
+			458 = {
+				life_rating = 8
+				infrastructure  = 2
+				add_province_modifier = {
+					name = flame_on_the_garonne
+					duration = 7300
+				}
+			}
+			425 = {
+				life_rating = -7
+			}
+			add_country_modifier = {
+				name = reinvigorated_nation
+				duration = 1825
+			}
+			FRA_425 = {
+				any_pop = {
+					limit = {
+						OR = {
+							type = officers
+							type = craftsmen
+							type = clerks
+							type = aristocrats
+							type = capitalists
+						}
+					}
+					move_pop = 458
+				}
+			}
+            425 = {
+				any_pop = {
+					limit = {
+						OR = {
+							type = soldiers
+							type = artisans
+						}
+					}
+					move_pop = 458
+				}
+            }
+            436 = {
+				any_pop = {
+					limit = {
+						OR = {
+							type = soldiers
+							type = artisans
+						}
+					}
+					move_pop = 458
+				}
+            }
+            438 = {
+				any_pop = {
+					limit = {
+						OR = {
+							type = soldiers
+							type = artisans
+						}
+					}
+					move_pop = 459
+				}
+            }
+            426 = {
+				any_pop = {
+					limit = {
+						OR = {
+							type = soldiers
+							type = artisans
+						}
+					}
+					move_pop = 460
+				}
+            }
+			set_country_flag = evacuate_paris
+		}
+	}
+
+	evacuate_paris_overseas = {
+		picture = new_camelot
+		potential = {
+			tag = DUA 
+			OR = {
+				has_country_flag = english_path
+				has_country_flag = dual_path
+			}
+			NOT = {has_country_flag = evacuate_paris}
+		}
+		allow = {
+			DUA = { NOT = { all_core = {owned_by = THIS} } }
+		}
+		effect = {
+			prestige = -30
+			capital = 300
+			300 = {
+				infrastructure  = 2
+				add_province_modifier = {
+					name = crown_in_exile
+					duration = 7300
+				}
+			}
+			425 = {
+				life_rating = -7
+			}
+			add_country_modifier = {
+				name = from_ashes_steel
+				duration = 1825
+			}
+			FRA_425 = {
+				any_pop = {
+					limit = {
+						OR = {
+							type = craftsmen
+							type = clerks
+						}
+					}
+					move_pop = 300
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							type = officers
+							type = aristocrats
+							type = capitalists
+						}
+					}
+					move_pop = 301
+				}
+			}
+            425 = {
+				any_pop = {
+					limit = {
+						OR = {
+							type = soldiers
+							type = artisans
+						}
+					}
+					move_pop = 300
+				}
+            }
+            436 = {
+				any_pop = {
+					limit = {
+						OR = {
+							type = soldiers
+							type = artisans
+						}
+					}
+					move_pop = 303
+				}
+            }
+            438 = {
+				any_pop = {
+					limit = {
+						OR = {
+							type = soldiers
+							type = artisans
+						}
+					}
+					move_pop = 301
+				}
+            }
+            426 = {
+				any_pop = {
+					limit = {
+						OR = {
+							type = soldiers
+							type = artisans
+						}
+					}
+					move_pop = 302
+				}
+            }
+			set_country_flag = evacuate_paris
+		}
+	}
+
+	return_to_paris = {
+		picture = statue_liberté
+		potential = {
+			tag = DUA
+			has_country_flag = evacuate_paris
+			NOT = {has_country_flag = return_paris}
+		}
+		allow = {
+			DUA = { NOT = { all_core = {owned_by = THIS} } }
+		}
+		effect = {
+			prestige = 30
+			capital = 425
+			425 = {
+				life_rating = 7
+				infrastructure  = 2
+				add_province_modifier = {
+					name = rebuilding_effort
+					duration = 7300
+				}
+			}
+			add_country_modifier = {
+				name = comprehensive_miracle
+				duration = 1825
+			}
+			458 = {
+				remove_province_modifier = flame_on_the_garonne
+			}
+			300 = {
+				remove_province_modifier = crown_in_exile
+			}
+			set_country_flag = return_paris
+		}
+	}
+
 	occitan_french = {
 		picture = Occitania
 		potential = {

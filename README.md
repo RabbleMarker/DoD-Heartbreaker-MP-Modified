@@ -4,6 +4,8 @@ Fork of GODOGs DOD mod with some campaign specific edits:
 * Fixed Russias northern path: Cores should be added properly now, now gives Lithuanian accepted as a bonus
 * Removed Danubias Elbian accepted, they get it back when forming Germany. This makes it so they only conflict over the Rhenisch pops with Elbians, if they so choose
 * Shuffled around 15 brigades from DM to Bohemia, a slight buff as they now benefit from BOHs army professionalism
+* Gave DM the ability to move capitals from Paris to Bordeaux (French path) or London (English path), taking Ile de Frances industry and military with them
+* Convined the Basque pops in Aquitaine to be Anglois instead
 * Fixed the disconnected Westphalen province (now belongs to Saxony)
 * Shuffled provinces from Moravia to Silesia, to make one a large state and the other a small state
 * Massively Buffed Beornia with pops (+40%) and +2 life rating across the board

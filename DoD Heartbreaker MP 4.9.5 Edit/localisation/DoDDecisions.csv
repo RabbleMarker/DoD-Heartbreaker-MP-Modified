@@ -162,6 +162,22 @@ dm_assim_nerf_removal_desc;Some time has passed since we have picked a cultural 
 dm_assim_nerf_removal_title;Ending the assimilation issue;;;;;;;;;;;;x;;;
 dm_assim_nerf_removal_desc;Some time has passed since we have picked a cultural focus for our nation, we can now end the assimilation troubles we have been having. We also will increase the Life Rating in French and English cores to 35.;;;;;;;;;;;;x;;;
 dm_assim_nerf;Assimilation Troubles;;;;;;;;;;;;x;;;
+evacuate_paris_bordeaux_title;Relocate to Bordeaux;;;;;;;;;;;;x;;;
+evacuate_paris_bordeaux_desc;With Paris under threat, the Union has chosen to fight on from the south. Bordeaux will become our new capital, a city transformed into the Heart of French Resistance. Its ports swell with fleeing citizens, its factories roar with new life, and along the Garonne, the fire of liberty burns brightly. We retreat not in defeat, but in defiance - and from this redoubt, we shall carry the war forward.;;;;;;;;;;;;x;;;
+evacuate_paris_overseas_title;Evacuate to London;;;;;;;;;;;;x;;;
+evacuate_paris_overseas_desc;Paris is as good as lost, and the Union reels. With no safe ground on the continent, the government and industry are evacuated to London. Though the cost to our prestige is high, the British capital now serves as a sanctuary for our exiled crowns. Factories expand to employ the displaced, the machinery of state grinds back into motion. Exile may be bitter, but in the streets of London, determination takes root - and the foundations of our return are laid.;;;;;;;;;;;;x;;;
+return_to_paris_title;Return to Paris;;;;;;;;;;;;x;;;
+return_to_paris_desc;At long last, we return to our capital. Our flag rises once more over Paris, and with it, the spirit of the Union is restored. Yet victory brings more than joy - it brings responsibility. The city is scarred, its population scattered, its infrastructure strained. Rebuilding begins at once, drawing workers and families home. From shattered boulevards and broken halls, a new Paris will rise - stronger, wiser, and worthy of the sacrifices made.;;;;;;;;;;;;x;;;
+flame_on_the_garonne;The Flame on the Garonne;;;;;;;;;;;;x;;;
+crown_in_exile;The Crowns in Exile;;;;;;;;;;;;x;;;
+rebuilding_effort;Rebuilding the Capital;;;;;;;;;;;;x;;;
+reinvigorated_nation;Reinvigorated Nation;;;;;;;;;;;;x;;;
+reinvigorated_nation_desc;Forced to adapt and rally in the face of catastrophe, the Union has rediscovered its fighting spirit. The government functions with renewed efficiency, the military gains strength, and the people are more united than ever before.;;;;;;;;;;;;x;;;
+from_ashes_steel;From Ashes, Steel;;;;;;;;;;;;x;;;
+from_ashes_steel_desc;Exile is a crucible - and the Union has emerged from it hardened, vengeful, and unbreakable. Though the retreat cost us dearly, it has forged a state ready to strike back with grim determination.;;;;;;;;;;;;x;;;
+comprehensive_miracle;From Ashes, Steel;;;;;;;;;;;;x;;;
+comprehensive_miracle_desc;Against all odds, the Union has not only survived - it thrives. A burst of reform, innovation, and reconstruction has reshaped the nation. Industry booms, education soars, and the people believe once more.;;;;;;;;;;;;x;;;
+
 incan_breadbasket;Incan Breadbasket;;;;;;;;;;;;x;;;
 integrate_caribbeans_arc_title;Integrate Caribbeans;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 integrate_caribbeans__arc_desc;We have freed the Caribeans from their oppression, we can now accept them into our nation.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
