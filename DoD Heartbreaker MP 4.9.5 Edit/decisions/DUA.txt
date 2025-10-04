@@ -283,7 +283,7 @@ political_decisions = {
 			NOT = {has_country_flag = return_paris}
 		}
 		allow = {
-			DUA = { NOT = { all_core = {owned_by = THIS} } }
+			DUA = { all_core = {owned_by = THIS} }
 		}
 		effect = {
 			prestige = 30
